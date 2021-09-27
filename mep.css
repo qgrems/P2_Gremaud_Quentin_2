@@ -62,6 +62,20 @@ center
     margin-top: 50px;
     margin-left: 50px;
 }
+.margintitle
+{
+    padding-top: 20px;
+    margin-left:20px;
+    margin-bottom: -30px; 
+}
+.margintitle2
+{
+    padding-top: 20px;
+    margin-left:20px;
+    margin-bottom: 10px; 
+}
+
+
 /*header*/
 
 
@@ -173,10 +187,11 @@ p{
 }
 /*hebergement*/
 .sizeblock 
-{
-    width: 100%;
-    height: auto;
-}
+    {
+        width: 75%;
+        height: auto;
+        min-width: 1200px;
+    }
 .margetxtarticle {
     margin-top: -15px;
     margin-left: 10px;
@@ -196,13 +211,6 @@ p{
     height:150px;
     border-radius: 20px 20px 0 0;
 }
-.sizepicturemarseillepopu {
-    object-fit: cover;
-    width: 250px;
-    height:160px;
-    border-radius: 20px 0 0 20px;
-}
-
 .starcolor{
     color: #0065FC;
 }
@@ -210,13 +218,44 @@ p{
     font-size: 0.8em;
 }
 .fondblock1 
-    {
-        width: 100%;
-        border-radius: 5% 5% 5% 5%;
-        border: 1px #F2F2F2 solid;
-        background-color:#F2F2F2;
-    }
-@media all and (min-width:800px)
+{
+    width: 75%;
+    height: 750px;
+    border-radius: 5% 5% 5% 5%;
+    border: 1px #F2F2F2 solid;
+    background-color:#F2F2F2;
+    min-width: 784px;
+}
+ /*Populaire*/
+ .sizepicturemarseillepopu {
+    object-fit: cover;
+    width: 250px;
+    height:160px;
+    border-radius: 20px 0 0 20px;
+}
+
+.margepopulaires2
+{
+    margin-top: -15px;
+    margin-left: -250px;
+}
+
+.margestarspopulaire2
+{
+    padding-top: 50px;
+    padding-left: 10px;
+}
+.margepopulaires3
+{
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.margepopulaires4
+{
+    margin-top: -15px;
+    margin-left: 15px;
+}
+@media all and (min-width:1200px)
 {
     .sizediv
     {
@@ -252,14 +291,8 @@ p{
     .marginblock
     {
         margin-right: 20px;
-    }
-    .margintitre
-    {
-        padding-top: 40px;
-        margin-bottom: -70px;
-        margin-left: 20px;
-    }
-    
+        margin-bottom: 20px;
+    }    
     .fondpicture 
     {
         border-radius: 20px;
@@ -268,10 +301,32 @@ p{
         padding: 0.5%;
         margin-right: 20px;
         margin-left: 20px;
-        margin-top: 100px;
+        margin-top: 90px;
+    }
+ /*Populaire*/
+    .sizeblock2 
+    {
+        width:25%;
+        height: 752px;
+    }
+    .fondblock2
+    { 
+        border-radius: 5% 5% 5% 5%;
+        border: 1px #F2F2F2 solid;
+        background-color:#F2F2F2;
+    } 
+    .fondpicture2 
+    {
+        border-radius: 20px;
+        background-color:white;
+        width: 400px; 
+        padding:0.5%;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
     }
 }
-@media all and (max-width:1227px) and (min-width:500px)
+@media all and (max-width:1200px) and (min-width:800px)
 {
     .sizefiltres
     {
@@ -285,8 +340,15 @@ p{
     {
         width: 75%;
         height: auto;
+        
+    }
+    .flexwrap
+    {
         flex-wrap: wrap;
-        display: flex;
+    }
+    .block12
+    {
+        display: inline-flex;
     }
 }
 @media all and (max-width:800px)
