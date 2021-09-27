@@ -1,4 +1,5 @@
-font-family : 'Raleway', sans-serif ;
+font-family : 'Raleway', sans-serif;
+
 .police
 {
     font-family: 'Raleway', sans-serif;
@@ -9,9 +10,6 @@ font-family : 'Raleway', sans-serif ;
     font-size : 1.1em;       
 }
 
-.marginleft {
-margin-left: 40px;
-}
 p
 {
     font-size: 0.7em;
@@ -59,21 +57,35 @@ center
     justify-content: center; 
     align-items: center;
 }
-/*nav*/
 
-.sizelien
-{
-    width:200px;
-    height: 100px;
+.margin{
+    margin-top: 50px;
+    margin-left: 50px;
 }
+/*header*/
 
 
+ul
+{
+    list-style-type:none;
+}
+a
+{
+    margin-left: 50px;
+    margin-right: 50px;
+}
 .colorlien 
 {
     color: #0065FC;
 }
-/*recherche*/
 
+h1{
+    font-size: 1.5em;
+}
+p{
+    font-size: 0.8em;
+}
+/*searchbar*/
 .iconemap {
     height: 50px;
     width: 50px;
@@ -103,49 +115,51 @@ center
     margin-bottom:-10px;
 }
   /*Filtres*/
-  .sizefiltres {
+.sizefiltres 
+{
     width: 50%;
     height: 50px;
 }
 
-.coloricone {
+.coloricone 
+{
     color:#0065FC;
 }
 
-.fondbleuclair {
+.fondbleuclair 
+{
     background-color: #DEEBFF;
 }
 
-.filtretext {  
+.filtretext 
+{  
     padding-left: 10px;
     padding-right : 20px;
     font-weight: bold;
 }
-.sizeanimaux:hover > .fondbleuclair {
+.sizefondfiltres:hover > .fondbleuclair 
+{
     background-color: #0065FC;
     color:honeydew;
 }
-.sizefamilial:hover > .fondbleuclair {
-    background-color: #0065FC;
-    color:honeydew;
+
+.fondfiltres 
+{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%; 
+    position: relative; 
+    margin-left: -2px;
 }
-.sizeeco:hover > .fondbleuclair {
-    background-color: #0065FC;
-    color:honeydew;
-}
-.sizeromantique:hover > .fondbleuclair {
-    background-color: #0065FC;
-    color:honeydew;
-}
-.fondfiltres {
-    height: 52px;
-    width: 52px;
-    border-radius: 50%;  
-}
-.sizetextfiltres {
+.sizetextfiltres 
+{
     font-size: 0.9em;
 }
 /*info*/
+.sizeinfo{
+    width:325px;
+    height: 50px;
+}
 .tailleiconeinfo 
 {
     font-size: 0.6em;
@@ -153,10 +167,16 @@ center
 .fondinfo 
 {
     width: 20px;
+    height: 20px;
     border-radius: 50%;
-    border: 1px #F2F2F2 solid;
+    border:1px grey solid;
 }
 /*hebergement*/
+.sizeblock 
+{
+    width: 100%;
+    height: auto;
+}
 .margetxtarticle {
     margin-top: -15px;
     margin-left: 10px;
@@ -175,7 +195,6 @@ center
     width: 350px;
     height:150px;
     border-radius: 20px 20px 0 0;
-
 }
 .sizepicturemarseillepopu {
     object-fit: cover;
@@ -190,71 +209,15 @@ center
 .sizestar {
     font-size: 0.8em;
 }
-
-.marginleftpopu
-{
-    margin-left: 15px;
-}
-.margepopulaires1
-{
-    margin-top: 5px;
-    margin-left: -250px;
-}
-.margepopulaires2
-{
-    margin-top: -15px;
-    margin-left: -250px;
-}
-.margestarspopulaire
-{
-    padding-top: 50px;
-    margin-left: -250px;
-}
-.margestarspopulaire2
-{
-    padding-top: 50px;
-    padding-left: 10px;
-}
-.margepopulaires3
-{
-    margin-top: 5px;
-    margin-left: 15px;
-}
-.margepopulaires4
-{
-    margin-top: -15px;
-    margin-left: 15px;
-}
-/*Activités à Marseille*/
-.shadow
-{
-    box-shadow:2px 2px 2px 2px #F2F2F2 ;
-}
-/*Responsive*/
-@media all and (min-width:1024px)
-{
-    /*nav*/
-    .sizeblockheader
+.fondblock1 
     {
-     width: 100%;
-        height: 100px;
+        width: 100%;
+        border-radius: 5% 5% 5% 5%;
+        border: 1px #F2F2F2 solid;
+        background-color:#F2F2F2;
     }
-    .bordernav
-    {
-        border-top: 1px solid transparent;
-    }
-    .bordernav:hover
-    {
-        border-top:1px solid#0065FC;  
-        cursor: pointer;
-    }
-    .margin {
-        margin-top: 40px;
-        margin-bottom: 40px;
-        margin-left: 40px;
-        margin-right: 40px;
-    }
-    /*recherche*/
+@media all and (min-width:800px)
+{
     .sizediv
     {
         width: 400px;
@@ -272,47 +235,19 @@ center
     {
         display:none;
     }
-      /*Filtres*/
-      .sizeeco {
-        float: initial;
-        height: 50px;
-        border: 2px #F2F2F2 solid;
-        border-radius: 50px;
-    }
-    .sizefamilial {
-        float: initial;
-        height: 50px;
-        border: 2px #F2F2F2 solid;
-        border-radius: 50px;
-    }
-    .sizeromantique {
-        float: initial;
-        height: 50px;
-        border: 2px #F2F2F2 solid;
-        border-radius: 50px;
-    }
-    .sizeanimaux {
-        float: initial;
-        height: 50px;
-        border: 2px #F2F2F2 solid;
-        border-radius: 50px;
-    }
-    /*info*/
-    .sizeinfo{
-        width:300px;
-        height: 50px;
-    }
-    /*hebergement*/
-    .margehebergement {
-        padding-left: 20px;
-        padding-top: 20px;
-        padding-right: 30px;
-    }
-    .sizeblock 
+    /*Filtres*/
+    .sizefondfiltres
     {
-        width: 100%;
-        height: 650px;
-        min-height: auto;
+        float: initial;
+        height: 50px;
+        border: 3px #F2F2F2 solid;
+        border-radius: 50px;
+    }
+   /*hebergement*/
+   .margehebergement {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 30px;
     }
     .marginblock
     {
@@ -320,15 +255,11 @@ center
     }
     .margintitre
     {
-        padding-top: 20px;
-        padding-left: 40px;
+        padding-top: 40px;
+        margin-bottom: -70px;
+        margin-left: 20px;
     }
-    .fondblock1 
-    {
-        border-radius: 5% 5% 5% 5%;
-        border: 1px #F2F2F2 solid;
-        background-color:#F2F2F2;
-    }
+    
     .fondpicture 
     {
         border-radius: 20px;
@@ -337,131 +268,35 @@ center
         padding: 0.5%;
         margin-right: 20px;
         margin-left: 20px;
-        margin-bottom: 20px;
-    }
-    .fondpicturehebergement1 
-    {
-        border-radius: 20px;
-        background-color:white;
-        width: 350px;
-        padding: 0.5%;
-        margin-left: 40px;
-        margin-bottom: 20px;
-    }
-    .fondpicturehebergement2 
-    {
-        border-radius: 20px;
-        background-color:white;
-        width: 350px;
-        padding: 0.5%;
-        margin-right: 60px;
-        margin-bottom: 20px;
-    }
-    /*Populaire*/
-    .sizeblock2 
-    {
-        width:50%;
-        height: 650px;
-    }
-
-    .fondblock2
-    { 
-        border-radius: 5% 5% 5% 5%;
-        border: 1px #F2F2F2 solid;
-        background-color:#F2F2F2;
-    }
-
-    .fondpicture2 
-    {
-        border-radius: 20px;
-        background-color:white;
-        width: 515px; 
-        padding:0.5%;
-        margin-left: 40px;
-        margin-right: 20px;
-        margin-bottom: 20px;
-    }
-    /*Activités à Marseille*/
-    .sizeblockacti1
-    {
-        height: 500px;
-    }
-    .sizeblockacti2
-    {
-        height: 500px;
-    }
-    .sizeblockacti3
-    {
-        height: 500px;
-    }
-    .sizeblockacti4
-    {
-        height: 500px;
-    }
-    .fondpicture3
-    {
-        border-radius: 20px;
-        background-color:white;
-        width: 400px;
-        padding:1%
-    }
-    .sizepicturemarseilleacti1
-    {
-        object-fit: cover;
-        width: 400px;
-        height:500px;
-        border-radius: 20px 20px 0 0;
-    }
-    .sizepicturemarseilleacti2
-    {
-        object-fit: cover;
-        width: 400px;
-        height:220px;
-        border-radius: 20px 20px 0 0;
-
-    }
-    .sizepicturemarseilleacti3
-    {
-        object-fit: cover;
-        width: 400px;
-        height:180px;
-        border-radius: 20px 20px 0 0;
-    }
-    .margebetween23-56
-    {
-        margin-top: 50px;
+        margin-top: 100px;
     }
 }
-
-@media all and (max-width:1024px)
+@media all and (max-width:1227px) and (min-width:500px)
 {
-    /*nav*/
-    .sizeblockheader
+    .sizefiltres
     {
-        width: auto;
-        
+        width: 50%;
+        height: 100px;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        display: flex;
     }
-    .flexcolumnreverse
+    .sizeblock
     {
-        flex-direction: column-reverse;
+        width: 75%;
+        height: auto;
+        flex-wrap: wrap;
+        display: flex;
     }
-    .
-    .bordernav
+}
+@media all and (max-width:800px)
+{
+    ul
     {
-        border-top: 1px solid transparent;
+        flex-direction:column-reverse;        
     }
-    .bordernav:hover
-    {
-        border-bottom:1px solid#0065FC;  
-        cursor: pointer;
-    }
-    .margin
-    {
-        margin-top: 0px;
-        margin-bottom: 25px;
-        margin-left:20px;
-    }
-    /*recherche*/
+
+    /*search*/
     .sizediv{
         width: 300px;
         height: 50px;
@@ -481,34 +316,13 @@ center
         color: white;
         position: absolute;
     }
-      /*Filtres*/
-      .sizefiltres
+  /*Filtres*/
+    .sizefiltres
     {
         flex-direction: column;
         align-items: flex-start;
     }
-    .sizeeco {
-        float: initial;
-        height: 50px;
-        border: 2px #F2F2F2 solid;
-        border-radius: 50px;
-        margin-bottom: 20px;
-    }
-    .sizefamilial {
-        float: initial;
-        height: 50px;
-        border: 2px #F2F2F2 solid;
-        border-radius: 50px;
-        margin-bottom: 20px;
-    }
-    .sizeromantique {
-        float: initial;
-        height: 50px;
-        border: 2px #F2F2F2 solid;
-        border-radius: 50px;
-        margin-bottom: 20px;
-    }
-    .sizeanimaux {
+    .sizefondfiltres {
         float: initial;
         height: 50px;
         border: 2px #F2F2F2 solid;
@@ -518,143 +332,6 @@ center
     .marginfiltres
     {
         margin-top: 0px;
-        margin-bottom: 250px;
-    }
-    /*info*/
-    .sizeinfo{
-        width:300px;
-        height: 50px;
-        padding-top: 50px;
-    }
-    /*hebergement*/
-    .block12
-    {
-        flex-direction: column-reverse;   
-    }
-    .sizeblock 
-    {
-        width: 100%;
-        min-height: auto;
-    }
-    .fondpicture 
-    {
-        border-radius: 20px;
-        background-color:white;
-        width: 350px;
-        margin: 0 auto;
-        margin-bottom: 15px;
-        box-shadow:2px 2px 2px 2px #F2F2F2;
-        
-    }
-    .fondpicturehebergement1 
-    {
-        border-radius: 20px;
-        background-color:white;
-        width: 350px;
-        margin: 0 auto;
-        margin-bottom: 15px;
-        box-shadow:2px 2px 2px 2px #F2F2F2;
-    }
-    .fondpicturehebergement2
-    {
-        border-radius: 20px;
-        background-color:white;
-        width: 350px;
-        margin: 0 auto;
-        margin-bottom: 15px;
-        box-shadow:2px 2px 2px 2px #F2F2F2;
-    }
-    /*Populaire*/
-    .sizeblock2 
-    {
-        width: 100%;
-    }
-
-    
-    .fondblock2
-    { 
-        border: 1px #F2F2F2 solid;
-        background-color:#F2F2F2;
-    }
-    .fondpicture2
-    {
-        border-radius: 20px;
-        background-color:white;
-        width: 515px;
-        padding: 0.5%; 
-        margin: 0 auto;
-        margin-bottom: 15px;
-    }
-
-    .ligne1
-    {
-        flex-direction: column;
-    }
-    .ligne2
-    {
-        flex-direction: column;
-    }
-    /*Activités à Marseille*/
-    .blockactivites
-    {
-        flex-direction: column;
-        margin: 0 auto;
-        margin-bottom: 15px;
-    }
-    .sizeblockacti1
-    {
-        height: 500px;
-        margin-bottom: -280px;
-    }
-    .sizeblockacti2
-    {
-        height: 500px;
-        margin-bottom: -60px;
-    }
-    .sizeblockacti3
-    {
-        height: 500px;
-        margin-bottom: -280px;
-    }
-    .sizeblockacti4
-    {
-        height: 500px;
-        margin-bottom: 20px;
-    }
-    .margebetween23-56
-    {
-        margin-top: 5px;
-    }
-    .fondpicture3
-    {
-        border-radius: 20px;
-        background-color:white;
-        width: 350px;
-        padding: 0.5%;
-        margin-right: 20px;
-        margin-left: 20px;
-        margin-bottom: 20px;
-    }
-
-    .sizepicturemarseilleacti1
-    {
-        object-fit: cover;
-        width: 350px;
-        height:150px;
-        border-radius: 20px 20px 0 0;
-    }
-    .sizepicturemarseilleacti2
-    {
-        object-fit: cover;
-        width: 350px;
-        height:150px;
-        border-radius: 20px 20px 0 0;
-    }
-    .sizepicturemarseilleacti3
-    {
-        object-fit: cover;
-        width: 350px;
-        height:150px;
-        border-radius: 20px 20px 0 0;
+        margin-bottom: 300px;
     }
 }
