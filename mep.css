@@ -242,6 +242,11 @@ p{
     margin-top: -15px;
     margin-left: 15px;
 }
+/*Activités à Marseille*/
+.shadow
+{
+    box-shadow:2px 2px 2px 2px #F2F2F2 ;
+}
 @media all and (min-width:800px)
 {
     .sizediv
@@ -321,6 +326,63 @@ p{
         margin-left: 20px;
         margin-right: 20px;
         margin-bottom: 20px;
+    }
+    /*Activités à Marseille*/
+    .sizeblockacti
+    {
+        width: 100%;
+        height: auto;
+    }
+    .sizeblockacti1
+    {
+        width: 100%;
+        height: auto;
+    }
+    .fondpicture3
+    {
+        border-radius: 20px;
+        background-color:white;
+        width: 400px;
+        padding:1%;
+        margin-left: -35px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .fondpicture4
+    {
+        border-radius: 20px;
+        background-color:white;
+        width: 400px;
+        padding:1%;
+        margin-left: -35px;
+        margin-right: 20px;
+        margin-bottom: -45px;
+    }
+    .sizepicturemarseilleacti1
+    {
+        object-fit: cover;
+        width: 400px;
+        height:500px;
+        border-radius: 20px 20px 0 0;
+    }
+    .sizepicturemarseilleacti2
+    {
+        object-fit: cover;
+        width: 400px;
+        height:220px;
+        border-radius: 20px 20px 0 0;
+
+    }
+    .sizepicturemarseilleacti3
+    {
+        object-fit: cover;
+        width: 400px;
+        height:180px;
+        border-radius: 20px 20px 0 0;
+    }
+    .margebetween23-56
+    {
+        margin-top: 50px;
     }
 }
 @media all and (max-width:1370px) and (min-width:800px)
@@ -418,7 +480,12 @@ p{
     {
         flex-direction:column-reverse;        
     }
-
+    .betweennav
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     /*search*/
     .sizediv{
         width: 300px;
@@ -527,4 +594,65 @@ p{
     {
         flex-direction: column;
     }
+     /*Activités à Marseille*/
+     .blockactivites
+     {
+         flex-direction: column;
+         margin: auto;
+         margin-bottom: 15px;
+     }
+     .sizeblockacti1
+     {
+         height: 500px;
+         margin-bottom: -280px;
+     }
+     .sizeblockacti2
+     {
+         height: 500px;
+         margin-bottom: -60px;
+     }
+     .sizeblockacti3
+     {
+         height: 500px;
+         margin-bottom: -280px;
+     }
+     .sizeblockacti4
+     {
+         height: 500px;
+         margin-bottom: 20px;
+     }
+     .margebetween23-56
+     {
+         margin-top: 5px;
+     }
+     .fondpicture3
+     {
+         border-radius: 20px;
+         background-color:white;
+         width: 350px;
+         padding: 0.5%;
+         margin-bottom: 20px;
+     }
+ 
+     .sizepicturemarseilleacti1
+     {
+         object-fit: cover;
+         width: 350px;
+         height:150px;
+         border-radius: 20px 20px 0 0;
+     }
+     .sizepicturemarseilleacti2
+     {
+         object-fit: cover;
+         width: 350px;
+         height:150px;
+         border-radius: 20px 20px 0 0;
+     }
+     .sizepicturemarseilleacti3
+     {
+         object-fit: cover;
+         width: 350px;
+         height:150px;
+         border-radius: 20px 20px 0 0;
+     }
 }
