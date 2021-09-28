@@ -322,9 +322,56 @@ p{
         margin-bottom: 20px;
     }
 }
+@media all and (max-width:1370px)
+{
+    .flexwrap
+    {
+        flex-wrap: wrap;
+    }
+}
 @media all and (max-width:1600px)
 {
-    
+    /*Hebergement*/
+    .sizeblock
+    {
+        width: 100%;
+        height: auto;
+        min-width: 875px;
+    }
+    /*Populaire*/
+    .block2
+    {
+        flex-direction: column-reverse;
+    }
+    .sizeblock2 
+    {
+        width:100%;
+        height: auto;
+        min-width: 875px;
+    }
+    .fondblock2
+    { 
+        border-radius: 5% 5% 5% 5%;
+        border: 1px #F2F2F2 solid;
+        background-color:#F2F2F2;
+        margin-bottom: 20px;
+    } 
+    .fondpicture2 
+    {
+        border-radius: 20px;
+        background-color:white;
+        width: 400px; 
+        padding:0.5%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .between2
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 @media all and (max-width:1200px) and (min-width:800px)
 {
@@ -362,46 +409,7 @@ p{
        
         margin-top: 90px;
     }
-    /*Populaire*/
-    .block2
-    {
-        flex-direction: column-reverse;
-    }
-    .sizeblock2 
-    {
-        width:100%;
-        height: auto;
-        min-width: 875px;
-    }
-    .fondblock2
-    { 
-        border-radius: 5% 5% 5% 5%;
-        border: 1px #F2F2F2 solid;
-        background-color:#F2F2F2;
-        margin-bottom: 20px;
-    } 
-    .fondpicture2 
-    {
-        border-radius: 20px;
-        background-color:white;
-        width: 400px; 
-        padding:0.5%;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    .flexcolumnaround
-    {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
     
-    }
-    .between2
-    {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
 }
 @media all and (max-width:800px)
 {
@@ -447,5 +455,61 @@ p{
     {
         margin-top: 0px;
         margin-bottom: 300px;
+    }
+    /*hebergement*/
+
+    .sizeblock 
+    {
+        width: 100%;
+        min-height: auto;  
+    }
+    .fondpicture 
+    {
+        border-radius: 20px;
+        background-color:white;
+        width: 350px;
+        margin: 0 auto;
+        margin-bottom: 15px;
+        box-shadow:2px 2px 2px 2px #F2F2F2;
+    }
+    .fondpicturehebergement1 
+    {
+        border-radius: 20px;
+        background-color:white;
+        width: 350px;
+        margin: 0 auto;
+        margin-bottom: 15px;
+        box-shadow:2px 2px 2px 2px #F2F2F2;
+    }
+
+    /*Populaire*/
+    .sizeblock2 
+    {
+        width: 100%;
+    }
+
+    
+    .fondblock2
+    { 
+        border: 1px #F2F2F2 solid;
+        background-color:#F2F2F2;
+    }
+    .fondpicture2
+    {
+        border-radius: 20px;
+        background-color:white;
+        width: 515px;
+        padding: 0.5%; 
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    .ligne1
+    {
+        flex-direction: column;
+    }
+    .ligne2
+    {
+        flex-direction: column;
     }
 }
