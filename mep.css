@@ -186,6 +186,7 @@ p{
         width: 75%;
         height: auto;
         min-width: 1200px;
+        margin-right: 20px;
     }
 .margetxtarticle {
     margin-top: -15px;
@@ -332,10 +333,17 @@ p{
     {
         width: 100%;
         height: auto;
+        
     }
     .sizeblockacti1
     {
-        width: 100%;
+        width: 50%;
+        height: auto;
+        margin-left: -40px;
+    }
+    .sizeblockacti2
+    {
+        width: 50%;
         height: auto;
     }
     .fondpicture3
@@ -344,9 +352,7 @@ p{
         background-color:white;
         width: 400px;
         padding:1%;
-        margin-left: -35px;
-        margin-right: 20px;
-        margin-bottom: 20px;
+        
     }
     .fondpicture4
     {
@@ -354,9 +360,7 @@ p{
         background-color:white;
         width: 400px;
         padding:1%;
-        margin-left: -35px;
-        margin-right: 20px;
-        margin-bottom: -45px;
+        margin-right: -50px;
     }
     .sizepicturemarseilleacti1
     {
@@ -595,12 +599,6 @@ p{
         flex-direction: column;
     }
      /*Activités à Marseille*/
-     .blockactivites
-     {
-         flex-direction: column;
-         margin: auto;
-         margin-bottom: 15px;
-     }
      .sizeblockacti1
      {
          height: 500px;
