@@ -62,12 +62,7 @@ center
     margin-top: 50px;
     margin-left: 50px;
 }
-.margintitle
-{
-    padding-top: 20px;
-    margin-left:20px;
-    margin-bottom: -30px; 
-}
+
 .margintitle2
 {
     padding-top: 20px;
@@ -217,15 +212,7 @@ p{
 .sizestar {
     font-size: 0.8em;
 }
-.fondblock1 
-{
-    width: 75%;
-    height: 750px;
-    border-radius: 5% 5% 5% 5%;
-    border: 1px #F2F2F2 solid;
-    background-color:#F2F2F2;
-    min-width: 784px;
-}
+
  /*Populaire*/
  .sizepicturemarseillepopu {
     object-fit: cover;
@@ -283,12 +270,26 @@ p{
         border-radius: 50px;
     }
    /*hebergement*/
-
+   .fondblock1 
+   {
+       width: 75%;
+       height: 750px;
+       border-radius: 5% 5% 5% 5%;
+       border: 1px #F2F2F2 solid;
+       background-color:#F2F2F2;
+       min-width: 784px;
+   }
     .marginblock
     {
         margin-right: 20px;
         margin-bottom: 20px;
     }    
+    .margintitle
+    {
+        padding-top: 20px;
+        margin-left:20px;
+        margin-bottom: -30px; 
+    }
     .fondpicture 
     {
         border-radius: 20px;
@@ -322,14 +323,14 @@ p{
         margin-bottom: 20px;
     }
 }
-@media all and (max-width:1370px)
+@media all and (max-width:1370px) and (min-width:800px)
 {
     .flexwrap
     {
         flex-wrap: wrap;
     }
 }
-@media all and (max-width:1600px)
+@media all and (max-width:1600px) and (min-width:800px)
 {
     /*Hebergement*/
     .sizeblock
@@ -457,10 +458,20 @@ p{
         margin-bottom: 300px;
     }
     /*hebergement*/
-
+    .fondblock1 
+   {
+       width: 100%;
+       height: auto;
+   }
+    .flexcolumnaround2
+    {
+        display: flex-start;
+        flex-direction: column;
+        justify-content: space-around;
+    }
     .sizeblock 
     {
-        width: 100%;
+        width: 600px;
         min-height: auto;  
     }
     .fondpicture 
@@ -472,25 +483,29 @@ p{
         margin-bottom: 15px;
         box-shadow:2px 2px 2px 2px #F2F2F2;
     }
-    .fondpicturehebergement1 
+    .margintitle
     {
-        border-radius: 20px;
-        background-color:white;
-        width: 350px;
-        margin: 0 auto;
-        margin-bottom: 15px;
-        box-shadow:2px 2px 2px 2px #F2F2F2;
+        padding-top: 20px;
+        margin-left:350px;
+         
+    }
+    /*Populaire*/
+    .block2
+    {
+        flex-direction: column-reverse;
     }
 
-    /*Populaire*/
     .sizeblock2 
     {
         width: 100%;
+        height: auto;
     }
 
     
     .fondblock2
     { 
+        width: 100%;
+        height: auto;
         border: 1px #F2F2F2 solid;
         background-color:#F2F2F2;
     }
