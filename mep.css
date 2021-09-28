@@ -72,7 +72,7 @@ center
 {
     padding-top: 20px;
     margin-left:20px;
-    margin-bottom: 10px; 
+    padding-bottom: 20px; 
 }
 
 
@@ -255,7 +255,7 @@ p{
     margin-top: -15px;
     margin-left: 15px;
 }
-@media all and (min-width:1200px)
+@media all and (min-width:800px)
 {
     .sizediv
     {
@@ -283,11 +283,7 @@ p{
         border-radius: 50px;
     }
    /*hebergement*/
-   .margehebergement {
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-right: 30px;
-    }
+
     .marginblock
     {
         margin-right: 20px;
@@ -326,6 +322,10 @@ p{
         margin-bottom: 20px;
     }
 }
+@media all and (max-width:1600px)
+{
+    
+}
 @media all and (max-width:1200px) and (min-width:800px)
 {
     .sizefiltres
@@ -336,11 +336,13 @@ p{
         margin-bottom: 20px;
         display: flex;
     }
+  
+    /*Hebergement*/
     .sizeblock
     {
-        width: 75%;
+        width: 100%;
         height: auto;
-        
+        min-width: 875px;
     }
     .flexwrap
     {
@@ -349,6 +351,56 @@ p{
     .block12
     {
         display: inline-flex;
+    }
+    .fondpicture 
+    {
+        border-radius: 20px;
+        background-color:white;
+        width: 350px;
+        padding: 0.5%;
+        margin-right: 20px;
+       
+        margin-top: 90px;
+    }
+    /*Populaire*/
+    .block2
+    {
+        flex-direction: column-reverse;
+    }
+    .sizeblock2 
+    {
+        width:100%;
+        height: auto;
+        min-width: 875px;
+    }
+    .fondblock2
+    { 
+        border-radius: 5% 5% 5% 5%;
+        border: 1px #F2F2F2 solid;
+        background-color:#F2F2F2;
+        margin-bottom: 20px;
+    } 
+    .fondpicture2 
+    {
+        border-radius: 20px;
+        background-color:white;
+        width: 400px; 
+        padding:0.5%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .flexcolumnaround
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    
+    }
+    .between2
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 }
 @media all and (max-width:800px)
