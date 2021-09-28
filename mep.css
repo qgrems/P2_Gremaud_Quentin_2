@@ -1,3 +1,4 @@
+
 font-family : 'Raleway', sans-serif;
 
 .police
@@ -248,7 +249,26 @@ p{
 {
     box-shadow:2px 2px 2px 2px #F2F2F2 ;
 }
-
+/*footer*/
+.sizeblockfooter
+{
+    width: 100%;
+    height: auto;
+} 
+.fondblockfooter
+{
+    width: 100%;
+    height: auto;
+    background-color:#F2F2F2;
+}
+.margintitlefooter
+{
+    margin-left: 50px;
+}
+.marginbottomfooter
+{
+    margin-bottom: 12px;
+}
 @media all and (min-width:800px)
 {
     .sizediv
@@ -637,5 +657,9 @@ p{
      .flexwrap2
      {
          flex-wrap: wrap;
+     }
+     .margintopfooter
+     {
+        margin-top: 1200px;
      }
 }
