@@ -634,4 +634,8 @@ p{
          height:150px;
          border-radius: 20px 20px 0 0;
      }
+     .flexwrap2
+     {
+         flex-wrap: wrap;
+     }
 }
