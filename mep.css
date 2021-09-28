@@ -248,6 +248,7 @@ p{
 {
     box-shadow:2px 2px 2px 2px #F2F2F2 ;
 }
+
 @media all and (min-width:800px)
 {
     .sizediv
@@ -333,13 +334,12 @@ p{
     {
         width: 100%;
         height: auto;
-        
     }
     .sizeblockacti1
     {
-        width: 50%;
+        width: 100%;
         height: auto;
-        margin-left: -40px;
+        margin-left: -50px;
     }
     .sizeblockacti2
     {
@@ -396,6 +396,13 @@ p{
         flex-wrap: wrap;
     }
 }
+@media all and (max-width:1650px) and (min-width:800px)
+{
+    .flexwrap2
+    {
+        flex-wrap: wrap;
+    }
+}
 @media all and (max-width:1600px) and (min-width:800px)
 {
     /*Hebergement*/
@@ -439,6 +446,8 @@ p{
         justify-content: space-between;
         align-items: center;
     }
+    /*Activites*/
+
 }
 @media all and (max-width:1200px) and (min-width:800px)
 {
@@ -589,39 +598,11 @@ p{
         margin: 0 auto;
         margin-bottom: 15px;
     }
-
-    .ligne1
-    {
-        flex-direction: column;
-    }
-    .ligne2
-    {
-        flex-direction: column;
-    }
      /*Activités à Marseille*/
      .sizeblockacti1
      {
          height: 500px;
          margin-bottom: -280px;
-     }
-     .sizeblockacti2
-     {
-         height: 500px;
-         margin-bottom: -60px;
-     }
-     .sizeblockacti3
-     {
-         height: 500px;
-         margin-bottom: -280px;
-     }
-     .sizeblockacti4
-     {
-         height: 500px;
-         margin-bottom: 20px;
-     }
-     .margebetween23-56
-     {
-         margin-top: 5px;
      }
      .fondpicture3
      {
