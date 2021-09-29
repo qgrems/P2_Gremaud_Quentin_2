@@ -7,8 +7,7 @@ font-family : 'Raleway', sans-serif;
 }
 .txtgras
 {
-    font-weight: bold;
-    font-size : 1.1em;       
+    font-weight: bold;      
 }
 
 p
@@ -682,7 +681,25 @@ p{
      }
      .margintopfooter
      {
-        margin-top: 1200px;
+        margin-top: 1500px;
      }
-
+     .margintitlefooter
+     {
+        margin-left: 50px;
+        font-size: 1.5em; 
+     }
+     p
+     {
+         font-size: 1.0em;
+     }
+     a 
+    {
+        text-decoration: none;
+        color: black;
+        font-size: 1.5em;
+    }
+    .sizetextfiltres 
+{
+    font-size: 1.2em;
+}
 }
