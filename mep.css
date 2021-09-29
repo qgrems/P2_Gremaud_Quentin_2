@@ -182,13 +182,7 @@ p{
     border:1px grey solid;
 }
 /*hebergement*/
-.sizeblock 
-    {
-        width: 75%;
-        height: auto;
-        min-width: 1200px;
-        margin-right: 20px;
-    }
+
 .margetxtarticle {
     margin-top: -15px;
     margin-left: 10px;
@@ -244,6 +238,10 @@ p{
     margin-top: -15px;
     margin-left: 15px;
 }
+.marginright
+{
+    margin-right: 10px;
+}
 /*Activités à Marseille*/
 .shadow
 {
@@ -297,10 +295,17 @@ p{
         border-radius: 50px;
     }
    /*hebergement*/
+   .sizeblock 
+    {
+        width: 75%;
+        height: auto;
+        min-width: 1200px;
+        margin-right: 20px;
+    }
    .fondblock1 
    {
        width: 75%;
-       height: 750px;
+       height: 850px;
        border-radius: 5% 5% 5% 5%;
        border: 1px #F2F2F2 solid;
        background-color:#F2F2F2;
@@ -505,13 +510,20 @@ p{
        
         margin-top: 90px;
     }
-    
+    .flexcolumnaround2
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
 }
 @media all and (max-width:1024px)
 {
     ul
     {
-        flex-direction:column-reverse;        
+        flex-direction:column-reverse;  
+        justify-content: space-around;
+        display: flex;      
     }
     .betweennav
     {
@@ -562,17 +574,19 @@ p{
    {
        width: 100%;
        height: auto;
+       border: 1px white solid;
+       background-color:#F2F2F2;
    }
     .flexcolumnaround2
     {
-        display: flex-start;
+        display: flex;
         flex-direction: column;
         justify-content: space-around;
     }
     .sizeblock 
     {
-        width: 600px;
-        min-height: auto;  
+        width: 100%;
+        height: auto;
     }
     .fondpicture 
     {
@@ -593,6 +607,7 @@ p{
     .block2
     {
         flex-direction: column-reverse;
+        display: flex;
     }
 
     .sizeblock2 
@@ -608,15 +623,17 @@ p{
         height: auto;
         border: 1px #F2F2F2 solid;
         background-color:#F2F2F2;
+        
     }
     .fondpicture2
     {
         border-radius: 20px;
         background-color:white;
-        width: 515px;
+        width: 512px;
         padding: 0.5%; 
-        margin: 0 auto;
+        margin-left: 10px;
         margin-bottom: 15px;
+        margin-right: 10px;
     }
      /*Activités à Marseille*/
      .sizeblockacti1
@@ -662,4 +679,5 @@ p{
      {
         margin-top: 1200px;
      }
+
 }
