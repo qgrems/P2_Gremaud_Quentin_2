@@ -191,7 +191,7 @@ p{
  padding-bottom: 5px;
  margin-left: 10px;
 }
-.margehetxtbergement1
+.margetxthebergement1
 {
     margin-top: 2px;
     margin-left: 10px;
@@ -210,12 +210,7 @@ p{
 }
 
  /*Populaire*/
- .sizepicturemarseillepopu {
-    object-fit: cover;
-    width: 250px;
-    height:160px;
-    border-radius: 20px 0 0 20px;
-}
+
 
 .margepopulaires2
 {
@@ -333,6 +328,12 @@ p{
         margin-top: 90px;
     }
  /*Populaire*/
+    .sizepicturemarseillepopu {
+        object-fit: cover;
+        width: 250px;
+        height:160px;
+        border-radius: 20px 0 0 20px;
+    }
     .sizeblock2 
     {
         width:25%;
@@ -574,8 +575,7 @@ p{
    {
        width: 100%;
        height: auto;
-       border: 1px white solid;
-       background-color:#F2F2F2;
+
    }
     .flexcolumnaround2
     {
@@ -593,7 +593,7 @@ p{
         border-radius: 20px;
         background-color:white;
         width: 350px;
-        margin: 0 auto;
+        margin: auto;
         margin-bottom: 15px;
         box-shadow:2px 2px 2px 2px #F2F2F2;
     }
@@ -604,6 +604,12 @@ p{
          
     }
     /*Populaire*/
+    .sizepicturemarseillepopu {
+        object-fit: cover;
+        width: 140px;
+        height:160px;
+        border-radius: 20px 0 0 20px;
+    }
     .block2
     {
         flex-direction: column-reverse;
@@ -629,11 +635,10 @@ p{
     {
         border-radius: 20px;
         background-color:white;
-        width: 512px;
+        width: 350px;
         padding: 0.5%; 
-        margin-left: 10px;
+        margin: auto;
         margin-bottom: 15px;
-        margin-right: 10px;
     }
      /*Activités à Marseille*/
      .sizeblockacti1
