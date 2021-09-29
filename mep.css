@@ -5,10 +5,7 @@ font-family : 'Raleway', sans-serif;
 {
     font-family: 'Raleway', sans-serif;
 }
-.txtgras
-{
-    font-weight: bold;      
-}
+
 
 p
 {
@@ -263,6 +260,11 @@ p{
 }
 @media all and (min-width:1024px)
 {
+    .txtgras
+    {
+        font-weight: bold;
+        font-size: 1.1em;     
+    }
     .sizediv
     {
         width: 400px;
@@ -620,8 +622,21 @@ p{
         width: 100%;
         height: auto;
     }
-
-    
+    .margepopulaires3
+    {
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+    .margepopulaires4
+    {
+        margin-top: -15px;
+        margin-left: 15px;
+    }
+    .margestarspopulaire2
+    {
+        padding-top: 15px;
+        padding-left: 10px;
+    }
     .fondblock2
     { 
         width: 100%;
@@ -688,9 +703,19 @@ p{
         margin-left: 50px;
         font-size: 1.5em; 
      }
+     .txtgras
+     {
+        font-weight: bold;
+        font-size: 1.0em;
+     }
+     .txtnavgras
+     {
+        font-weight: bold;
+        font-size: 1.5em;
+     }
      p
      {
-         font-size: 1.0em;
+         font-size: 0.8em;
      }
      a 
     {
@@ -698,8 +723,12 @@ p{
         color: black;
         font-size: 1.5em;
     }
+    h2
+    {
+        font-size: 1.8em;
+    }
     .sizetextfiltres 
-{
-    font-size: 1.2em;
-}
+    {
+        font-size: 1.2em;
+    }
 }
