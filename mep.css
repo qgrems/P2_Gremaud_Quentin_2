@@ -55,10 +55,7 @@ center
     align-items: center;
 }
 
-.margin{
-    margin-top: 50px;
-    margin-left: 50px;
-}
+
 
 .margintitle2
 {
@@ -260,6 +257,11 @@ p{
 }
 @media all and (min-width:1024px)
 {
+    .margin
+    {
+        margin-top: 50px;
+        margin-left: 50px;
+    }
     .txtgras
     {
         font-weight: bold;
@@ -589,11 +591,17 @@ p{
         width: 100%;
         height: auto;
     }
+    .sizepicturemarseille {
+        object-fit: cover;
+        width: 700px;
+        height:250px;
+        border-radius: 20px 20px 0 0;
+    }
     .fondpicture 
     {
         border-radius: 20px;
         background-color:white;
-        width: 350px;
+        width: 700px;
         margin: auto;
         margin-bottom: 15px;
         box-shadow:2px 2px 2px 2px #F2F2F2;
@@ -607,8 +615,8 @@ p{
     /*Populaire*/
     .sizepicturemarseillepopu {
         object-fit: cover;
-        width: 140px;
-        height:160px;
+        width: 400px;
+        height:200px;
         border-radius: 20px 0 0 20px;
     }
     .block2
@@ -649,7 +657,7 @@ p{
     {
         border-radius: 20px;
         background-color:white;
-        width: 350px;
+        width: 700px;
         padding: 0.5%; 
         margin: auto;
         margin-bottom: 15px;
@@ -664,7 +672,7 @@ p{
      {
          border-radius: 20px;
          background-color:white;
-         width: 350px;
+         width: 700px;
          padding: 0.5%;
          margin-bottom: 20px;
      }
@@ -672,22 +680,22 @@ p{
      .sizepicturemarseilleacti1
      {
          object-fit: cover;
-         width: 350px;
-         height:150px;
+         width: 700px;
+         height:250px;
          border-radius: 20px 20px 0 0;
      }
      .sizepicturemarseilleacti2
      {
          object-fit: cover;
-         width: 350px;
-         height:150px;
+         width: 700px;
+         height:250px;
          border-radius: 20px 20px 0 0;
      }
      .sizepicturemarseilleacti3
      {
          object-fit: cover;
-         width: 350px;
-         height:150px;
+         width: 700px;
+         height:250px;
          border-radius: 20px 20px 0 0;
      }
      .flexwrap2
@@ -696,7 +704,7 @@ p{
      }
      .margintopfooter
      {
-        margin-top: 1500px;
+        margin-top: 2000px;
      }
      .margintitlefooter
      {
