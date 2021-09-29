@@ -269,7 +269,7 @@ p{
 {
     margin-bottom: 12px;
 }
-@media all and (min-width:800px)
+@media all and (min-width:1024px)
 {
     .sizediv
     {
@@ -409,21 +409,21 @@ p{
         margin-top: 50px;
     }
 }
-@media all and (max-width:1370px) and (min-width:800px)
+@media all and (max-width:1370px) and (min-width:1024px)
 {
     .flexwrap
     {
         flex-wrap: wrap;
     }
 }
-@media all and (max-width:1650px) and (min-width:800px)
+@media all and (max-width:1650px) and (min-width:1024px)
 {
     .flexwrap2
     {
         flex-wrap: wrap;
     }
 }
-@media all and (max-width:1600px) and (min-width:800px)
+@media all and (max-width:1600px) and (min-width:1024px)
 {
     /*Hebergement*/
     .sizeblock
@@ -469,7 +469,7 @@ p{
     /*Activites*/
 
 }
-@media all and (max-width:1200px) and (min-width:800px)
+@media all and (max-width:1200px) and (min-width:1024px)
 {
     .sizefiltres
     {
@@ -507,7 +507,7 @@ p{
     }
     
 }
-@media all and (max-width:800px)
+@media all and (max-width:1024px)
 {
     ul
     {
