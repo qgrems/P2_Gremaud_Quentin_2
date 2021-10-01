@@ -1,12 +1,7 @@
-
-font-family : 'Raleway', sans-serif;
-
 .police
 {
     font-family: 'Raleway', sans-serif;
 }
-
-
 p
 {
     font-size: 0.7em;
@@ -120,7 +115,7 @@ p{
   /*Filtres*/
 .sizefiltres 
 {
-    width: 50%;
+    width: 75%;
     height: 50px;
 }
 
@@ -191,8 +186,8 @@ p{
 }
 .sizepicturemarseille {
     object-fit: cover;
-    width: 350px;
-    height:150px;
+    width: 250px;
+    height:125px;
     border-radius: 20px 20px 0 0;
 }
 .starcolor{
@@ -295,20 +290,15 @@ p{
    /*hebergement*/
    .sizeblock 
     {
-        width: 75%;
+        width: auto;
         height: auto;
-        min-width: 1200px;
         margin-right: 20px;
+        border-radius: 5% 5% 5% 5%;
+        border: 1px #F2F2F2 solid;
+        background-color:#F2F2F2;
+        min-width: 850px;
+        
     }
-   .fondblock1 
-   {
-       width: 75%;
-       height: 850px;
-       border-radius: 5% 5% 5% 5%;
-       border: 1px #F2F2F2 solid;
-       background-color:#F2F2F2;
-       min-width: 784px;
-   }
     .marginblock
     {
         margin-right: 20px;
@@ -324,35 +314,31 @@ p{
     {
         border-radius: 20px;
         background-color:white;
-        width: 350px;
+        width: 257px;
         padding: 0.5%;
-        margin-right: 20px;
-        margin-left: 20px;
-        margin-top: 90px;
+        margin-bottom: 20px;
     }
+
  /*Populaire*/
     .sizepicturemarseillepopu {
         object-fit: cover;
-        width: 250px;
-        height:160px;
+        width: 150px;
+        height:150px;
         border-radius: 20px 0 0 20px;
     }
     .sizeblock2 
     {
-        width:25%;
+        width:auto;
         height: 752px;
-    }
-    .fondblock2
-    { 
         border-radius: 5% 5% 5% 5%;
         border: 1px #F2F2F2 solid;
         background-color:#F2F2F2;
-    } 
+    }
     .fondpicture2 
     {
         border-radius: 20px;
         background-color:white;
-        width: 400px; 
+        width: 300px; 
         padding:0.5%;
         margin-left: 20px;
         margin-right: 20px;
@@ -418,109 +404,7 @@ p{
         margin-top: 50px;
     }
 }
-@media all and (max-width:1370px) and (min-width:1024px)
-{
-    .flexwrap
-    {
-        flex-wrap: wrap;
-    }
-}
-@media all and (max-width:1650px) and (min-width:1024px)
-{
-    .flexwrap2
-    {
-        flex-wrap: wrap;
-    }
-}
-@media all and (max-width:1600px) and (min-width:1024px)
-{
-    /*Hebergement*/
-    .sizeblock
-    {
-        width: 100%;
-        height: auto;
-        min-width: 875px;
-    }
-    /*Populaire*/
-    .block2
-    {
-        flex-direction: column-reverse;
-    }
-    .sizeblock2 
-    {
-        width:100%;
-        height: auto;
-        min-width: 875px;
-    }
-    .fondblock2
-    { 
-        border-radius: 5% 5% 5% 5%;
-        border: 1px #F2F2F2 solid;
-        background-color:#F2F2F2;
-        margin-bottom: 20px;
-    } 
-    .fondpicture2 
-    {
-        border-radius: 20px;
-        background-color:white;
-        width: 400px; 
-        padding:0.5%;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
 
-    .between2
-    {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    /*Activites*/
-
-}
-@media all and (max-width:1200px) and (min-width:1024px)
-{
-    .sizefiltres
-    {
-        width: 50%;
-        height: 100px;
-        flex-wrap: wrap;
-        margin-bottom: 20px;
-        display: flex;
-    }
-  
-    /*Hebergement*/
-    .sizeblock
-    {
-        width: 100%;
-        height: auto;
-        min-width: 875px;
-    }
-    .flexwrap
-    {
-        flex-wrap: wrap;
-    }
-    .block12
-    {
-        display: inline-flex;
-    }
-    .fondpicture 
-    {
-        border-radius: 20px;
-        background-color:white;
-        width: 350px;
-        padding: 0.5%;
-        margin-right: 20px;
-       
-        margin-top: 90px;
-    }
-    .flexcolumnaround2
-    {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-}
 @media all and (max-width:1024px)
 {
     ul
@@ -593,15 +477,15 @@ p{
     }
     .sizepicturemarseille {
         object-fit: cover;
-        width: 700px;
-        height:250px;
+        width: 300px;
+        height:150px;
         border-radius: 20px 20px 0 0;
     }
     .fondpicture 
     {
         border-radius: 20px;
         background-color:white;
-        width: 700px;
+        width: 300px;
         margin: auto;
         margin-bottom: 15px;
         box-shadow:2px 2px 2px 2px #F2F2F2;
@@ -615,8 +499,8 @@ p{
     /*Populaire*/
     .sizepicturemarseillepopu {
         object-fit: cover;
-        width: 400px;
-        height:200px;
+        width: 300px;
+        height:100px;
         border-radius: 20px 0 0 20px;
     }
     .block2
