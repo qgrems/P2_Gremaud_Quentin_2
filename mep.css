@@ -480,10 +480,6 @@ p{
         align-items: center;
     }
      /*Div*/
-     .grid > div
-     {
-         background-color: bisque;
-     }
      .grid
      {
          display: grid;
