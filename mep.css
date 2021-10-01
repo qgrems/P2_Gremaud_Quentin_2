@@ -79,9 +79,12 @@ a
 }
 .colorlien 
 {
-    color: #0065FC;
+    color: #0450c4;
 }
-
+.txtnavgras
+{
+    font-weight: bold;
+}
 h1{
     font-size: 1.5em;
 }
@@ -279,6 +282,7 @@ p{
         font-weight: bold;
         font-size: 1.1em;     
     }
+    /*Header*/
     .sizediv
     {
         width: 400px;
@@ -286,9 +290,10 @@ p{
     }
     .over:hover 
     {
-        text-decoration: overline #0065FC;
-        padding-top: 100px;
+        border-top: 2px solid #0065FC;
+        padding-top: 50px;
     }
+    /*search*/
     .search 
     {
         width: 150px;
@@ -480,6 +485,11 @@ p{
         align-items: center;
     }
      /*Div*/
+     .over:hover 
+     {
+         border-bottom: 2px solid #0065FC;
+         padding-bottom: 15px;
+     }
      .grid
      {
          display: grid;
