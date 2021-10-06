@@ -4,7 +4,7 @@
 }
 p
 {
-    font-size: 0.7em;
+    font-size: 0.5em;
 }
 a 
 {
@@ -192,7 +192,11 @@ p{
     margin-top: 2px;
     margin-left: 10px;
 }
-
+.margetxthebergement2
+{
+    margin-top: 20px;
+    margin-left: 10px;
+}
 .starcolor{
     color: #0065FC;
 }
@@ -206,14 +210,14 @@ p{
 
 .margestarspopulaire2
 {
-    padding-top: 50px;
+    margin-top: 40px;
     padding-left: 10px;
 }
 .margepopulaires3
 {
-    margin-top: 5px;
+    margin-top: -1px;
     margin-left: 15px;
-    padding-right: 50px;
+    padding-right: 20px;
 }
 .margepopulaires4
 {
@@ -265,22 +269,31 @@ p{
 }
 @media all and (min-width:600px)
 {
+    .bordernav
+    {
+        border-top: 1px solid transparent;
+        padding-top: 10px;
+    }
+    .bordernav:hover
+    {
+        border-top:1px solid#0065FC;  
+        cursor: pointer;
+    }
     .sizepicturemarseille 
     {
         object-fit: cover;
-        width: 250px;
-        height:125px;
+        width: 200px;
+        height:100px;
         border-radius: 20px 20px 0 0;
     }
     .margin
     {
-        margin-top: 50px;
-        margin-left: 50px;
+        margin-left: 10px;
     }
     .txtgras
     {
         font-weight: bold;
-        font-size: 1.1em;     
+        font-size: 0.9em;     
     }
     /*Header*/
     .sizediv
@@ -288,11 +301,7 @@ p{
         width: 400px;
         height: 50px;
     }
-    .over:hover 
-    {
-        border-top: 2px solid #0065FC;
-        padding-top: 50px;
-    }
+
     /*search*/
     .search 
     {
@@ -340,7 +349,7 @@ p{
     {
         border-radius: 20px;
         background-color:white;
-        width: 257px;
+        width: 207px;
         padding: 0.5%;
         margin-bottom: 20px;
         box-shadow:2px 2px 2px 2px grey ;
@@ -350,24 +359,26 @@ p{
     .sizepicturemarseillepopu {
         object-fit: cover;
         width: 125px;
-        height:150px;
+        height:125px;
         border-radius: 20px 0 0 20px;
     }
     .sizeblock2 
     {
-        width:auto;
-        height: auto;
+        width:25%;
+        max-height: 560px;
         border-radius: 5% 5% 5% 5%;
         border: 1px #F2F2F2 solid;
         background-color:#F2F2F2;
-        min-width: 420px;
+        min-width: 320px;
+        
 
     }
     .fondpicture2 
     {
+        height: 125px;
         border-radius: 20px;
         background-color:white;
-        width: 350px; 
+        width: 275px; 
         padding:0.5%;
         margin-left: 30px;
         margin-right: 30px;
@@ -410,7 +421,7 @@ p{
     {
         border-radius: 20px;
         background-color:white;
-        width: 300px;
+        width: 225px;
         padding:1%;
         
     }
@@ -418,21 +429,21 @@ p{
     {
         border-radius: 20px;
         background-color:white;
-        width: 300px;
+        width: 225px;
         padding:1%;
         margin-right: -50px;
     }
     .sizepicturemarseilleacti1
     {
         object-fit: cover;
-        width: 300px;
+        width: 225px;
         height:400px;
         border-radius: 20px 20px 0 0;
     }
     .sizepicturemarseilleacti2
     {
         object-fit: cover;
-        width: 300px;
+        width: 225px;
         height:175px;
         border-radius: 20px 20px 0 0;
 
@@ -440,7 +451,7 @@ p{
     .sizepicturemarseilleacti3
     {
         object-fit: cover;
-        width: 300px;
+        width: 225px;
         height:125px;
         border-radius: 20px 20px 0 0;
     }
@@ -472,6 +483,17 @@ p{
 
 @media all and (max-width:600px)
 {
+    .bordernav
+    {
+        border-top: 1px solid transparent;
+        padding-bottom: 10px;
+        
+    }
+    .bordernav:hover
+    {
+        border-bottom:1px solid#0065FC;  
+        cursor: pointer;
+    }
     ul
     {
         flex-direction:column-reverse;  
