@@ -484,7 +484,7 @@ p{
         padding-bottom: 10px;
         
     }
-    .bordernav:hover
+    .bordernav:active
     {
         border-bottom:1px solid#0065FC;  
         cursor: pointer;
