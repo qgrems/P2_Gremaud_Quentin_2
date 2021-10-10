@@ -50,23 +50,7 @@ center
     align-items: center;
 }
 
-
-
-.margintitle1
-{
-    padding-top: 10px;
-    margin-left:20px;
-}
-.margintitle2
-{
-    padding-top: 10px;
-    margin-left:20px;
-    margin-bottom: 5px;
-}
-
-
 /*header*/
-
 
 ul
 {
@@ -230,7 +214,7 @@ p{
     box-shadow:2px 2px 2px 2px #F2F2F2 ;
 }
 
-@media all and (min-width:600px) and (max-width:1024px)
+@media all and (min-width:600px) and (max-width:1280px)
 {
     .sizefiltres 
     {
@@ -265,6 +249,17 @@ p{
 }
 @media all and (min-width:600px)
 {
+    .margintitle1
+    {
+        padding-top: 10px;
+        margin-left:20px;
+    }
+    .margintitle2
+    {
+        padding-top: 10px;
+        margin-left:20px;
+        margin-bottom: 5px;
+    }
     .bordernav
     {
         border-top: 1px solid transparent;
@@ -290,7 +285,7 @@ p{
     .txtgras
     {
         font-weight: bold;
-        font-size: 1.1em;     
+        font-size: 1.0em;     
     }
     /*Header*/
     .sizediv
@@ -325,7 +320,7 @@ p{
     {
         width: 75%;
         height: auto;
-        margin-right: 20px;
+        margin-right: 10px;
         border-radius: 5% 5% 5% 5%;
         border: 1px #F2F2F2 solid;
         background-color:#F2F2F2;
@@ -361,19 +356,18 @@ p{
     }
     .sizeblock2 
     {
-        width:auto;
+        
         height: auto;
         border-radius: 5% 5% 5% 5%;
         border: 1px #F2F2F2 solid;
         background-color:#F2F2F2;
-        min-width: 420px;
-
+        min-width: 360px;
     }
     .fondpicture2 
     {
         border-radius: 20px;
         background-color:white;
-        width: 350px; 
+        width: 300px; 
         padding:0.5%;
         margin-left: 30px;
         margin-right: 30px;
@@ -405,7 +399,6 @@ p{
     {
         width: 100%;
         height: auto;
-        margin-left: -50px;
     }
     .sizeblockacti2
     {
@@ -416,29 +409,29 @@ p{
     {
         border-radius: 20px;
         background-color:white;
-        width: 300px;
+        width: 280px;
         padding:1%;
-        
+        margin-left: -20px;
     }
     .fondpicture4
     {
         border-radius: 20px;
         background-color:white;
-        width: 300px;
+        width: 280px;
         padding:1%;
-        margin-right: -50px;
+        margin-left: -20px;
     }
     .sizepicturemarseilleacti1
     {
         object-fit: cover;
-        width: 300px;
+        width: 280px;
         height:400px;
         border-radius: 20px 20px 0 0;
     }
     .sizepicturemarseilleacti2
     {
         object-fit: cover;
-        width: 300px;
+        width: 280px;
         height:175px;
         border-radius: 20px 20px 0 0;
 
@@ -446,7 +439,7 @@ p{
     .sizepicturemarseilleacti3
     {
         object-fit: cover;
-        width: 300px;
+        width: 280px;
         height:125px;
         border-radius: 20px 20px 0 0;
     }
@@ -474,10 +467,23 @@ p{
     {
         margin-bottom: 12px;
     }
+    .marginbottomfooter2
+    {
+        margin-bottom: 32px;
+    }
+    .sizedivfooter
+    {
+        width: 50%;
+        height: auto;
+    }
 }
 
 @media all and (max-width:600px)
 {
+    .margintitle2 
+    {
+        margin-left: 30px;
+    }
     .bordernav
     {
         border-top: 1px solid transparent;
@@ -510,8 +516,8 @@ p{
      .grid
      {
          display: grid;
-         grid-template-columns: 1fr 1fr ;
-         grid-template-rows: 1fr 1fr;
+         grid-template-columns: 175px 200px ;
+         grid-template-rows: 1fr 2fr;
          grid-auto-rows: minmax(100px, auto);
      }
      .one
@@ -593,7 +599,6 @@ p{
     {
         width: auto;
         height: auto;
-        margin-left: -60px;
         object-fit: cover;
     }
     .fondpicture 
@@ -630,7 +635,7 @@ p{
         height: auto;
         border: 1px #F2F2F2 solid;
         background-color:#F2F2F2;
-        min-width: 420px;
+        
 
     }
     .fondpicture2 
@@ -681,7 +686,6 @@ p{
     {
         width: auto;
         height: auto;
-        margin-left: -50px;
     }
     .fondpicture3
     {
@@ -696,7 +700,7 @@ p{
         background-color:white;
         width: 300px;
         padding:1%;
-        margin-right: -50px;
+        
     }
     .sizepicturemarseilleacti1
     {
@@ -731,11 +735,7 @@ p{
         justify-content: space-around;
     }
  
-    .margin
-    {
-        margin-top: 20px;
-        margin-left: 20px;
-    }
+
     .txtgras
     {
         font-weight: bold;
@@ -745,28 +745,33 @@ p{
     {
         margin-top: 20px;
     }
-    /*Footer*/
-    .sizeblockfooter
-    {
-        width: 100%;
-        height: auto;
-    } 
-    .fondblockfooter
-    {
-        width: 100%;
-        height: auto;
-        background-color:#F2F2F2;
-    }
-    .margintitlefooter
-    {
-        margin-left: 0px;
-    }
-    .marginbottomfooter
-    {
-        margin-bottom: 12px;
-    }
-    .aligne
-    {
-        align-items: flex-start;
-    }
+     /*footer*/
+     .sizeblockfooter
+     {
+         width: 100%;
+         height: auto;
+     } 
+     .fondblockfooter
+     {
+         width: 100%;
+         height: auto;
+         background-color:#F2F2F2;
+     }
+     .margintitlefooter
+     {
+         margin-left: 50px;
+     }
+     .marginbottomfooter
+     {
+         margin-bottom: 12px;
+     }
+     .marginbottomfooter2
+     {
+         margin-bottom: 32px;
+     }
+     .sizedivfooter
+     {
+         width: 100%;
+         height: auto;
+     }
 }
