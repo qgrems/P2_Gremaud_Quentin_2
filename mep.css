@@ -223,6 +223,18 @@ p{
 {
     box-shadow:2px 2px 2px 2px #F2F2F2 ;
 }
+@media all and (min-width:1280px)
+{
+    .sizeblock 
+    {
+        width: 75%;
+        min-height: 625px;
+        margin-right: 10px;
+        border-radius: 3% 3% 3% 3%;
+        border: 1px #F2F2F2 solid;
+        background-color:#F2F2F2;
+    }
+}
 
 @media all and (min-width:600px) and (max-width:1280px)
 {
@@ -305,7 +317,7 @@ p{
     .bordernav
     {
         border-top: 1px solid transparent;
-        padding-top: 10px;
+        padding-top: 30px;
     }
 
     .bordernav:hover
@@ -316,7 +328,7 @@ p{
     .bordernav2
     {
         border-top: 1px solid transparent;
-        padding-top: 10px;
+        padding-top: 30px;
     }
 
     .bordernav2:hover
@@ -367,7 +379,7 @@ p{
    /*hebergement*/
    .sizeblock 
     {
-        width: 75%;
+        width: 100%;
         min-height: 625px;
         margin-right: 10px;
         border-radius: 3% 3% 3% 3%;
@@ -405,7 +417,6 @@ p{
     }
     .sizeblock2 
     {
-        
         height: auto;
         border-radius: 3% 3% 3% 3%;
         border: 1px #F2F2F2 solid;
@@ -534,6 +545,7 @@ p{
     {
         width:350px;
         height: 50px;
+        margin-bottom: 20px;
     }
     .margintitle2 
     {
@@ -542,7 +554,7 @@ p{
     .bordernav
     {
         border-bottom: 2px solid #F2F2F2;
-        padding-bottom: 10px;
+        padding-bottom: 30px;
         
     }
     .bordernav:active
@@ -553,7 +565,7 @@ p{
     .bordernav2
     {
         border-bottom: 2px solid white;
-        padding-bottom: 10px;
+        padding-bottom: 30px;
     }
     .bordernav2:active
     {
@@ -584,6 +596,7 @@ p{
          grid-template-columns: 200px 200px ;
          grid-template-rows: 1fr 2fr;
          grid-auto-rows: minmax(100px, auto);
+         margin-bottom: -50px;
      }
      .one
      {
@@ -594,16 +607,21 @@ p{
      {
          grid-column: 1 / 2;
          grid-row: 2 / 2;
+         margin-top: -20px;
+         margin-left: 40px;
      }
      .three 
      {
          grid-column: 2 / 2;
          grid-row: 2 / 2;
+         margin-top: -20px;
+         margin-right: 0px;
      }
      .four
      {
          grid-column: 2 / 2;
          grid-row: 1 / 2;
+         margin-top: 40px;
      }
     /*search*/
     .margerecherche {
@@ -617,6 +635,7 @@ p{
     .sizediv{
         width: 150px;
         height: 50px;
+
     }
     .search
     {
@@ -649,8 +668,8 @@ p{
     }
     .marginfiltres
     {
-        margin-top: 0px;
-        margin-bottom: 175px;
+        margin-top: -30px;
+        margin-bottom: 150px;
     }
     /*hebergement*/
     .sizepicturemarseille 
