@@ -6,6 +6,11 @@ p
 {
     font-size: 0.7em;
 }
+
+.margininfo
+{
+    margin-left: 10px;
+}
 a 
 {
     text-decoration: none;
@@ -146,10 +151,10 @@ p{
     font-size: 0.9em;
 }
 /*info*/
-.sizeinfo{
-    width:350px;
-    height: 50px;
-}
+    .sizeinfo{
+        width:400px;
+        height: 50px;
+    }
 .tailleiconeinfo 
 {
     font-size: 0.6em;
@@ -216,6 +221,7 @@ p{
 
 @media all and (min-width:600px) and (max-width:1280px)
 {
+
     .sizefiltres 
     {
         width: 75%;
@@ -249,23 +255,66 @@ p{
 }
 @media all and (min-width:600px)
 {
+    .margin
+    {
+        margin-left: 30px;
+    }
     .margintitle1
     {
         padding-top: 10px;
-        margin-left:20px;
+        margin-left:30px;
     }
     .margintitle2
     {
         padding-top: 10px;
-        margin-left:20px;
+        margin-left:40px;
         margin-bottom: 5px;
     }
+    .grid
+     {
+         display: grid;
+         grid-template-columns: 1fr ;
+         grid-template-rows: 1fr;
+         grid-auto-rows: minmax(100px, auto);
+     }
+     .one
+     {
+         grid-column: 1 / 4;
+         grid-row: 1;
+     }
+     .two
+     {
+         grid-column: 2 / 4;
+         grid-row: 1 / 1;
+     }
+     .three 
+     {
+         grid-column: 3 / 4;
+         grid-row: 1 / 1;
+     }
+     .four
+     {
+         grid-column: 4 / 4;
+         grid-row: 1 / 1;
+     }
     .bordernav
     {
         border-top: 1px solid transparent;
         padding-top: 10px;
     }
+
     .bordernav:hover
+    {
+        border-top:1px solid#0065FC;  
+        cursor: pointer;
+    }
+    .bordernav2
+    {
+        border-top: 1px solid transparent;
+        padding-top: 10px;
+    }
+
+    .bordernav2:hover
     {
         border-top:1px solid#0065FC;  
         cursor: pointer;
@@ -276,11 +325,6 @@ p{
         width: 250px;
         height:125px;
         border-radius: 20px 20px 0 0;
-    }
-    .margin
-    {
-        
-        margin-left: 50px;
     }
     .txtgras
     {
@@ -319,9 +363,9 @@ p{
    .sizeblock 
     {
         width: 75%;
-        height: auto;
+        min-height: 625px;
         margin-right: 10px;
-        border-radius: 5% 5% 5% 5%;
+        border-radius: 3% 3% 3% 3%;
         border: 1px #F2F2F2 solid;
         background-color:#F2F2F2;
     }
@@ -358,7 +402,7 @@ p{
     {
         
         height: auto;
-        border-radius: 5% 5% 5% 5%;
+        border-radius: 3% 3% 3% 3%;
         border: 1px #F2F2F2 solid;
         background-color:#F2F2F2;
         min-width: 360px;
@@ -480,19 +524,35 @@ p{
 
 @media all and (max-width:600px)
 {
+        /*info*/
+    .sizeinfo
+    {
+        width:350px;
+        height: 50px;
+    }
     .margintitle2 
     {
         margin-left: 30px;
     }
     .bordernav
     {
-        border-top: 1px solid transparent;
+        border-bottom: 2px solid #F2F2F2;
         padding-bottom: 10px;
         
     }
     .bordernav:active
     {
-        border-bottom:1px solid#0065FC;  
+        border-bottom:2px solid#0065FC;  
+        cursor: pointer;
+    }
+    .bordernav2
+    {
+        border-bottom: 2px solid white;
+        padding-bottom: 10px;
+    }
+    .bordernav2:active
+    {
+        border-bottom:2px solid#0065FC;  
         cursor: pointer;
     }
     ul
@@ -516,7 +576,7 @@ p{
      .grid
      {
          display: grid;
-         grid-template-columns: 175px 200px ;
+         grid-template-columns: 200px 200px ;
          grid-template-rows: 1fr 2fr;
          grid-auto-rows: minmax(100px, auto);
      }
@@ -557,7 +617,7 @@ p{
     {
         width: 50px;
         height: 50px;
-        border-radius: 0px 10px 10px 10px;
+        border-radius: 10px 10px 10px 10px;
     }
     .iconsearch
     {
@@ -631,12 +691,9 @@ p{
     }
     .sizeblock2 
     {
-        width:auto;
         height: auto;
-        border: 1px #F2F2F2 solid;
         background-color:#F2F2F2;
-        
-
+        margin :0;
     }
     .fondpicture2 
     {
@@ -659,6 +716,8 @@ p{
 
     .block2
     {
+        width: 100%;
+        height: auto;
         flex-direction: column-reverse;
         display: flex;
     }
@@ -756,6 +815,8 @@ p{
          width: 100%;
          height: auto;
          background-color:#F2F2F2;
+         margin: 0;
+         
      }
      .margintitlefooter
      {
@@ -774,4 +835,16 @@ p{
          width: 100%;
          height: auto;
      }
+
+     .around2
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .margin2
+    {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
 }
