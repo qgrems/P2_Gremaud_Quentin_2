@@ -102,7 +102,7 @@ p{
     margin-bottom:30px;
     margin-top:15px;
 }
-.bordure{
+.border{
     border:none;
 }
 
@@ -149,6 +149,11 @@ p{
 .sizetextfiltres 
 {
     font-size: 0.9em;
+}
+.sizefondfiltres:hover
+{
+    background-color: #DEEBFF;
+    cursor: pointer;
 }
 /*info*/
     .sizeinfo{
@@ -624,7 +629,7 @@ p{
         color: white;
         position: absolute;
     }
-    .bordure{
+    .border{
         border:none;
     }
   /*Filtres*/
@@ -759,7 +764,6 @@ p{
         background-color:white;
         width: 300px;
         padding:1%;
-        
     }
     .sizepicturemarseilleacti1
     {
@@ -774,7 +778,6 @@ p{
         width: 300px;
         height:100px;
         border-radius: 20px 20px 0 0;
-
     }
     .sizepicturemarseilleacti3
     {
