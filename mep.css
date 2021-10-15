@@ -1,3 +1,9 @@
+
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
 .police
 {
     font-family: 'Raleway', sans-serif;
@@ -174,16 +180,17 @@ p{
 /*hebergement*/
 
 .margetxtarticle {
-    margin-top: -15px;
-    margin-left: 10px;
+ margin-top:5px;
+ margin-left: 10px;
 }
 .margestars {
- padding-bottom: 5px;
+ margin-top:5px;
+ margin-bottom: 10px;
  margin-left: 10px;
 }
 .margetxthebergement1
 {
-    margin-top: 2px;
+    margin-top:5px;
     margin-left: 10px;
 }
 
@@ -195,24 +202,32 @@ p{
 }
 
  /*Populaire*/
-
-
+ .margintitle2
+ {
+     padding-top: 30px;
+     margin-left:30px;
+     margin-bottom: 5px;
+ }
+ .marginiconpopulaire 
+ {
+     margin-right: 30px;
+     margin-top: 30px;
+ }
 
 .margestarspopulaire2
 {
     padding-top: 50px;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 .margepopulaires3
 {
-    margin-top: 5px;
-    margin-left: 15px;
-    padding-right: 50px;
+    margin-top:;
+    margin-left:20px;
+    padding-right:;
 }
 .margepopulaires4
 {
-    margin-top: -15px;
-    margin-left: 15px;
+ margin-left: 20px;
 }
 .marginright
 {
@@ -272,20 +287,19 @@ p{
 }
 @media all and (min-width:600px)
 {
+    .marginbottomh1
+    {
+        margin-bottom: 3px;
+    }
     .margin
     {
         margin-left: 30px;
     }
     .margintitle1
     {
-        padding-top: 10px;
+        padding-top: 30px;
         margin-left:30px;
-    }
-    .margintitle2
-    {
-        padding-top: 10px;
-        margin-left:40px;
-        margin-bottom: 5px;
+        margin-bottom: 20px;
     }
     .grid
      {
@@ -293,6 +307,7 @@ p{
          grid-template-columns: 1fr ;
          grid-template-rows: 1fr;
          grid-auto-rows: minmax(100px, auto);
+         margin-bottom: 30px;
      }
      .one
      {
@@ -407,8 +422,12 @@ p{
         margin-bottom: 20px;
         box-shadow:2px 2px 2px 2px grey ;
     }
-
+    .marginafficherplus
+    {
+        margin-left: 30px;
+    }
  /*Populaire*/
+
     .sizepicturemarseillepopu {
         object-fit: cover;
         width: 125px;
@@ -450,10 +469,23 @@ p{
         margin-right: 20px;
     }
     /*Activités à Marseille*/
+    .margintxtactivity
+    {
+        margin-left:10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .margintitle3 
+    {
+        margin-left: 40px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
     .sizeblockacti
     {
         width: 100%;
         height: auto;
+        margin-bottom: 30px;
     }
     .sizeblockacti1
     {
@@ -522,6 +554,8 @@ p{
     .margintitlefooter
     {
         margin-left: 50px;
+        padding-top: 20px;
+        margin-bottom: 20px
     }
     .marginbottomfooter
     {
@@ -547,9 +581,11 @@ p{
         height: 50px;
         margin-bottom: 20px;
     }
-    .margintitle2 
+    .margintitle3 
     {
-        margin-left: 30px;
+        margin-left: 38px;
+        margin-bottom: 30px;
+        margin-top: 40px;
     }
     .bordernav
     {
@@ -584,49 +620,14 @@ p{
         justify-content: space-between;
         align-items: center;
     }
-     /*Div*/
-     .over:hover 
-     {
-         border-bottom: 2px solid #0065FC;
-         padding-bottom: 15px;
-     }
-     .grid
-     {
-         display: grid;
-         grid-template-columns: 200px 200px ;
-         grid-template-rows: 1fr 2fr;
-         grid-auto-rows: minmax(100px, auto);
-         margin-bottom: -50px;
-     }
-     .one
-     {
-         grid-column: 1 / 2;
-         grid-row: 1;
-     }
-     .two
-     {
-         grid-column: 1 / 2;
-         grid-row: 2 / 2;
-         margin-top: -20px;
-         margin-left: 40px;
-     }
-     .three 
-     {
-         grid-column: 2 / 2;
-         grid-row: 2 / 2;
-         margin-top: -20px;
-         margin-right: 0px;
-     }
-     .four
-     {
-         grid-column: 2 / 2;
-         grid-row: 1 / 2;
-         margin-top: 40px;
-     }
+    .marginbottomh1
+    {
+        margin-bottom: 3px;
+    }
     /*search*/
     .margerecherche {
         margin-bottom:200px;
-        margin-top:15px;
+        margin-top:25px;
     }
     .txtrecherche
     {
@@ -652,7 +653,10 @@ p{
         border:none;
     }
   /*Filtres*/
-
+    .margintileh3
+    {
+        margin-bottom: 30px;
+    }
 
     .sizefiltres
     {
@@ -706,6 +710,11 @@ p{
         margin-left:350px;
          
     }
+    .margintitle1
+    {
+        padding-top: 30px;
+        margin-bottom: 40px;
+    }
     /*Populaire*/
     .sizepicturemarseillepopu {
         object-fit: cover;
@@ -715,9 +724,11 @@ p{
     }
     .sizeblock2 
     {
+        width: 100%;
         height: auto;
         background-color:#F2F2F2;
-        margin :0;
+        margin: 0;
+        padding: 0;
     }
     .fondpicture2 
     {
@@ -740,7 +751,6 @@ p{
 
     .block2
     {
-        width: 100%;
         height: auto;
         flex-direction: column-reverse;
         display: flex;
@@ -842,7 +852,9 @@ p{
      }
      .margintitlefooter
      {
-         margin-left: 50px;
+        margin-left: 50px;
+        padding-top: 20px;
+        margin-bottom: 20px
      }
      .marginbottomfooter
      {
@@ -868,5 +880,47 @@ p{
     {
         margin-left: 10px;
         margin-top: 10px;
+    }
+}
+@media all and (max-width:800px)
+{
+    /*Div*/
+    .over:hover 
+    {
+        border-bottom: 2px solid #0065FC;
+        padding-bottom: 15px;
+    }
+    .grid
+    {
+        display: grid;
+        grid-template-columns: 200px 200px ;
+        grid-template-rows: 1fr 2fr;
+        grid-auto-rows: minmax(100px, auto);
+        margin-bottom: -50px;
+    }
+    .one
+    {
+        grid-column: 1 / 2;
+        grid-row: 1;
+    }
+    .two
+    {
+        grid-column: 1 / 2;
+        grid-row: 2 / 2;
+        margin-top: -20px;
+        margin-left: 40px;
+    }
+    .three 
+    {
+        grid-column: 2 / 2;
+        grid-row: 2 / 2;
+        margin-top: -20px;
+        margin-right: 0px;
+    }
+    .four
+    {
+        grid-column: 2 / 2;
+        grid-row: 1 / 2;
+        margin-top: 40px;
     }
 }
