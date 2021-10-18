@@ -255,7 +255,7 @@ p{
     }
 }
 
-@media all and (min-width:600px) and (max-width:1280px)
+@media all and (min-width:620px) and (max-width:1280px)
 {
 
     .sizefiltres 
@@ -425,7 +425,7 @@ p{
         width: 257px;
         padding: 0.5%;
         margin-bottom: 20px;
-        box-shadow:2px 2px 2px 2px grey ;
+        box-shadow:2px 2px 2px 2px grey;
     }
     .marginafficherplus
     {
@@ -455,7 +455,7 @@ p{
         padding:0.5%;
         margin-left: 30px;
         margin-right: 30px;
-        box-shadow:2px 2px 2px 2px grey ;
+        box-shadow:2px 2px 2px 2px grey;
     }
     .marginbottom
     {
@@ -571,7 +571,7 @@ p{
     }
 }
 
-@media all and (max-width:600px)
+@media all and (max-width:620px)
 {
         /*info*/
     .sizeinfo
@@ -736,7 +736,7 @@ p{
         padding:0.5%;
         margin-left: 30px;
         margin-right: 30px;
-        box-shadow:2px 2px 2px 2px grey ;
+        box-shadow:2px 2px 2px 2px #F2F2F2;
     }
     .marginbottom
     {
@@ -818,13 +818,14 @@ p{
      /*footer*/
      .sizeblockfooter
      {
+         width: 100%;
         height: auto;
         margin: 0;
         padding: 0;
      } 
      .fondblockfooter
      {
-
+         width: 100%;
         height: auto;
         background-color:#F2F2F2;
         margin: 0;
@@ -858,11 +859,11 @@ p{
     }
     .margin2
     {
-        margin-left: 30px;
+        margin-left: 25px;
         margin-top: 10px;
     }
 }
-@media all and (max-width:800px)
+@media all and (max-width:800px) and (min-width:400px)
 {
     /*Div*/
     .over:hover 
@@ -903,4 +904,46 @@ p{
         grid-row: 1 / 2;
         margin-top: 40px;
     }
+}
+@media all and (max-width:400px)
+{
+        /*Div*/
+        .over:hover 
+        {
+            border-bottom: 2px solid #0065FC;
+            padding-bottom: 15px;
+        }
+        .grid
+        {
+            display: grid;
+            grid-template-columns: 50%;
+            grid-template-rows: 1fr 2fr;
+            grid-auto-rows: minmax(100px, auto);
+            margin-bottom: -50px;
+        }
+        .one
+        {
+            grid-column: 1 / 2;
+            grid-row: 1;
+        }
+        .two
+        {
+            grid-column: 1 / 2;
+            grid-row: 2 / 2;
+            margin-top: -20px;
+            margin-left: 40px;
+        }
+        .three 
+        {
+            grid-column: 2 / 2;
+            grid-row: 2 / 2;
+            margin-top: -20px;
+            margin-right: 0px;
+        }
+        .four
+        {
+            grid-column: 2 / 2;
+            grid-row: 1 / 2;
+            margin-top: 40px;
+        }
 }
