@@ -198,6 +198,9 @@ p{
 .starcolor{
     color: #0065FC;
 }
+.starcolor2{
+    color: #B6B6B6;
+}
 .sizestar {
     font-size: 0.8em;
 }
@@ -207,12 +210,13 @@ p{
  {
      padding-top: 30px;
      margin-left:30px;
-     margin-bottom: 5px;
+     margin-bottom: 15px;
  }
  .marginiconpopulaire 
  {
      margin-right: 30px;
      margin-top: 30px;
+     margin-bottom: 15px;
  }
 
 .margestarspopulaire2
@@ -245,6 +249,10 @@ p{
 }
 @media all and (min-width:1280px)
 {
+    .leftmargin
+    {
+        margin-left: -20px;
+    }
     .sizeblock 
     {
         width: 75%;
@@ -254,8 +262,54 @@ p{
         border: 1px #F2F2F2 solid;
         background-color:#F2F2F2;
     }
-}
+    .bordernav
+    {
+        border-top: 2px solid transparent;
+        padding-top: 30px;
+    }
 
+    .bordernav:hover
+    {
+        border-top:2px solid#0065FC;  
+        cursor: pointer;
+    }
+    .bordernav2
+    {
+        border-top: 2px solid transparent;
+        padding-top: 30px;
+    }
+
+    .bordernav2:hover
+    {
+        border-top:2px solid#0065FC;  
+        cursor: pointer;
+    }
+}
+@media all and (min-width:800px) and (max-width:1280px)
+{
+    .bordernav
+    {
+        border-top: 2px solid transparent;
+        padding-top: 30px;
+    }
+
+    .bordernav:hover
+    {
+        border-top:2px solid#0065FC;  
+        cursor: pointer;
+    }
+    .bordernav2
+    {
+        border-top: 2px solid transparent;
+        padding-top: 30px;
+    }
+
+    .bordernav2:hover
+    {
+        border-top:2px solid#0065FC;  
+        cursor: pointer;
+    } 
+}
 @media all and (min-width:620px) and (max-width:1280px)
 {
 
@@ -272,6 +326,7 @@ p{
 
     .flexwrap2
     {
+        display: flex;
         flex-wrap: wrap;
     }
     .block2
@@ -288,7 +343,6 @@ p{
     {
         margin-bottom: 20px;
     }
-    
 }
 @media all and (min-width:600px)
 {
@@ -299,7 +353,7 @@ p{
     .margin
     {
         margin-left: 30px;
-        margin-right: 10px; 
+        margin-right: 20px; 
     }
     .margintitle1
     {
@@ -335,28 +389,6 @@ p{
          grid-column: 4 / 4;
          grid-row: 1 / 1;
      }
-    .bordernav
-    {
-        border-top: 2px solid transparent;
-        padding-top: 30px;
-    }
-
-    .bordernav:hover
-    {
-        border-top:2px solid#0065FC;  
-        cursor: pointer;
-    }
-    .bordernav2
-    {
-        border-top: 2px solid transparent;
-        padding-top: 30px;
-    }
-
-    .bordernav2:hover
-    {
-        border-top:2px solid#0065FC;  
-        cursor: pointer;
-    }
     .sizepicturemarseille 
     {
         object-fit: cover;
@@ -418,8 +450,7 @@ p{
         margin-left:20px;
         margin-bottom: -30px; 
     }
-    
-    .fondpicture 
+    .fondpicture
     {
         border-radius: 20px;
         background-color:white;
@@ -427,6 +458,16 @@ p{
         padding: 0.5%;
         margin-bottom: 20px;
         box-shadow:  2px 4px 15px 5px #C1C1C1;
+    }
+    .fondpicture0
+    {
+        border-radius: 20px;
+        background-color:white;
+        width: 257px;
+        padding: 0.5%;
+        margin-bottom: 20px;
+        box-shadow:  2px 4px 15px 5px #C1C1C1;
+        margin-left: 30px;
     }
     .marginafficherplus
     {
@@ -454,13 +495,15 @@ p{
         background-color:white;
         width: 300px; 
         padding:0.5%;
-        margin-left: 30px;
-        margin-right: 30px;
         box-shadow:  2px 4px 15px 5px #C1C1C1
     }
     .marginbottom
     {
-        margin-bottom: -10px;
+        margin-bottom: 30px;
+    }
+    .paddingright
+    {
+        margin-right: 30px;
     }
     .margintop2
     {
@@ -477,13 +520,12 @@ p{
     /*Activités à Marseille*/
     .margintitle3 
     {
-        margin-left: 40px;
         margin-top: 40px;
         margin-bottom: 20px;
     }
     .sizeblockacti
     {
-        width: 100%;
+        width: 95%;
         height: auto;
         margin-bottom: 30px;
         padding-right: 20px;
@@ -495,7 +537,7 @@ p{
     }
     .sizeblockacti2
     {
-        width: 50%;
+        width: 100%;
         height: auto;
     }
     .fondpicture3
@@ -504,7 +546,14 @@ p{
         background-color:white;
         width: 280px;
         padding:1%;
-        margin-left: -20px;
+        margin-bottom: 20px;
+    }
+    .fondpicture5
+    {
+        border-radius: 20px;
+        background-color:white;
+        width: 280px;
+        padding:1%;
     }
     .fondpicture4
     {
@@ -512,7 +561,7 @@ p{
         background-color:white;
         width: 280px;
         padding:1%;
-        margin-left: -20px;
+        margin-bottom: 20px;
     }
     .sizepicturemarseilleacti1
     {
@@ -588,27 +637,7 @@ p{
         margin-bottom: 30px;
         margin-top: 40px;
     }
-    .bordernav
-    {
-        border-bottom: 2px solid #F2F2F2;
-        padding-bottom: 30px;
-        
-    }
-    .bordernav:active
-    {
-        border-bottom:2px solid#0065FC;  
-        cursor: pointer;
-    }
-    .bordernav2
-    {
-        border-bottom: 2px solid white;
-        padding-bottom: 30px;
-    }
-    .bordernav2:active
-    {
-        border-bottom:2px solid#0065FC;  
-        cursor: pointer;
-    }
+    
     ul
     {
         flex-direction:column-reverse;  
@@ -777,6 +806,13 @@ p{
         width: 300px;
         padding:1%;
     }
+    .fondpicture5
+    {
+        border-radius: 20px;
+        background-color:white;
+        width: 300px;
+        padding:1%;
+    }
     .sizepicturemarseilleacti1
     {
         object-fit: cover;
@@ -869,44 +905,66 @@ p{
 }
 @media all and (max-width:800px) and (min-width:400px)
 {
-    /*Div*/
-    .over:hover 
-    {
-        border-bottom: 2px solid #0065FC;
-        padding-bottom: 15px;
-    }
-    .grid
-    {
-        display: grid;
-        grid-template-columns: 200px 200px ;
-        grid-template-rows: 1fr 2fr;
-        grid-auto-rows: minmax(100px, auto);
-    }
-    .one
-    {
-        grid-column: 1 / 2;
-        grid-row: 1;
-    }
-    .two
-    {
-        grid-column: 1 / 2;
-        grid-row: 2 / 2;
-        margin-top: -20px;
-        margin-left: 40px;
-    }
-    .three 
-    {
-        grid-column: 2 / 2;
-        grid-row: 2 / 2;
-        margin-top: -20px;
-        margin-right: 0px;
-    }
-    .four
-    {
-        grid-column: 2 / 2;
-        grid-row: 1 / 2;
-        margin-top: 40px;
-    }
+        /*Div*/
+        .over:hover 
+        {
+            border-bottom: 2px solid #0065FC;
+            padding-bottom: 15px;
+        }
+        .grid
+        {
+            display: grid;
+            grid-template-columns: 50%;
+            grid-template-rows: 1fr 2fr;
+            grid-auto-rows: minmax(100px, auto);
+            margin-bottom: -50px;
+        }
+        .one
+        {
+            grid-column: 1 / 2;
+            grid-row: 1;
+        }
+        .two
+        {
+            grid-column: 1 / 2;
+            grid-row: 2 / 2;
+            margin-top: -20px;
+            margin-left: 40px;
+        }
+        .three 
+        {
+            grid-column: 2 / 2;
+            grid-row: 2 / 2;
+            margin-top: -20px;
+            margin-right: 0px;
+        }
+        .four
+        {
+            grid-column: 2 / 2;
+            grid-row: 1 / 2;
+            margin-top: 40px;
+        }
+        .bordernav
+        {
+            border-bottom: 2px solid #F2F2F2;
+            padding-bottom: 30px;
+            
+        }
+        .bordernav:active
+        {
+            border-bottom:2px solid#0065FC;  
+            cursor: pointer;
+        }
+        .bordernav2
+        {
+            border-bottom: 2px solid white;
+            padding-bottom: 30px;
+        }
+        .bordernav2:active
+        {
+            border-bottom:2px solid#0065FC;  
+            cursor: pointer;
+        }
 }
 @media all and (max-width:400px)
 {
@@ -948,5 +1006,26 @@ p{
             grid-column: 2 / 2;
             grid-row: 1 / 2;
             margin-top: 40px;
+        }
+        .bordernav
+        {
+            border-bottom: 2px solid #F2F2F2;
+            padding-bottom: 30px;
+            
+        }
+        .bordernav:active
+        {
+            border-bottom:2px solid#0065FC;  
+            cursor: pointer;
+        }
+        .bordernav2
+        {
+            border-bottom: 2px solid white;
+            padding-bottom: 30px;
+        }
+        .bordernav2:active
+        {
+            border-bottom:2px solid#0065FC;  
+            cursor: pointer;
         }
 }
