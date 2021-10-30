@@ -209,12 +209,7 @@ p{
 }
 
  /*Populaire*/
- .margintitle2
- {
-     padding-top: 30px;
-     margin-left:20px;
-     margin-bottom: 15px;
- }
+
  .marginiconpopulaire 
  {
      margin-right: 30px;
@@ -251,6 +246,7 @@ p{
 }
 @media all and (min-width:1280px)
 {
+
     .marginsearch
     {
         margin-left: 30px;
@@ -263,6 +259,7 @@ p{
     .sizeblock 
     {
         width: 75%;
+        max-width: 990px;
         min-height: 625px;
         margin-right: 10px;
         border-radius: 3% 3% 3% 3%;
@@ -270,6 +267,10 @@ p{
         background-color:#F2F2F2;
         margin-left: 30px;
         margin-right: 10px;
+    }
+    .flexwrap
+    {
+        flex-wrap: wrap;
     }
     .sizeblockacti
     {
@@ -411,12 +412,20 @@ p{
         border-bottom:2px solid#0065FC;  
         cursor: pointer;
     }
+    .aroundtablette
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
 @media all and (min-width:620px) and (max-width:1280px)
 {
+
     .sizeblock 
     {
         width: 90%;
+        max-width: 990px;
         min-height: 625px;
         margin-right: 10px;
         border-radius: 3% 3% 3% 3%;
@@ -478,12 +487,6 @@ p{
     {
         flex-direction: column-reverse;
     }
-    .between2
-    {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
     .sizeblock2 
     {
         margin-bottom: 20px;
@@ -526,6 +529,12 @@ p{
 }
 @media all and (min-width:600px)
 {
+    .aroundmobile
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
     .marginsearch
     {
         margin-left: 30px;
@@ -541,7 +550,12 @@ p{
         margin-left:20px;
         margin-bottom: 20px;
     }
-    
+    .margintitle2
+    {
+        padding-top: 30px;
+        margin-left:20px;
+        margin-bottom: 15px;
+    }
     .sizepicturemarseille 
     {
         object-fit: cover;
@@ -777,6 +791,19 @@ p{
 
 @media all and (max-width:620px)
 {
+    .marginnature
+    {
+        margin-top: 5px;
+        margin-left: -40px;
+        font-size: 1.0em;
+
+    }
+    .aroundtablette
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
         /*info*/
     .sizeinfo
     {
@@ -786,7 +813,7 @@ p{
     }
     .margintitle3 
     {
-        margin-left: 20px;
+        margin-left: -80px;
         margin-bottom: 30px;
         margin-top: 40px;
     }
@@ -815,11 +842,6 @@ p{
     .txtrecherche
     {
         display:none;
-    }
-    .sizediv{
-        width: 150px;
-        height: 50px;
-
     }
     .search
     {
@@ -863,7 +885,7 @@ p{
     /*hebergement*/
     .marginafficherplus
     {
-        margin-left: 20px;
+        margin-left: -200px;
     }
     .sizepicturemarseille 
     {
@@ -876,7 +898,7 @@ p{
     {
         width: 100%;
         height: auto;
-    
+        max-width: 990px;
     }
     .fondpicture 
     {
@@ -886,7 +908,6 @@ p{
         padding: 1%;
         margin-bottom: 20px;
         box-shadow:2px 2px 2px 2px #F2F2F2 ;
-        margin-left: 20px;
     }
     .flexcolumnaround2
     {
@@ -897,14 +918,18 @@ p{
     .margintitle
     {
         padding-top: 20px;
-        margin-left:20px;
+        margin-left:-80px;
          
     }
     .margintitle1
     {
-        margin-left: 20px;
         padding-top: 30px;
         margin-bottom: 40px;
+    }
+    .margintitle2
+    {
+        padding-top: 30px;
+        margin-bottom: 15px;
     }
     /*Populaire*/
     .blockhebergementpopulaire
@@ -929,14 +954,12 @@ p{
         background-color:white;
         width: 300px; 
         padding:0.5%;
-        margin-right: 30px;
         box-shadow:2px 2px 2px 2px #F2F2F2;
         margin-bottom: 60px;
-        margin-left: 20px;
     }
     .marginbottom
     {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
     .margintop2
     {
@@ -965,7 +988,7 @@ p{
         background-color:white;
         width: 300px;
         padding:1%; 
-        margin-left: 20px;   
+        margin-bottom: 20px;    
     }
     .fondpicture4
     {
@@ -973,7 +996,8 @@ p{
         background-color:white;
         width: 300px;
         padding:1%;
-        margin-left: 20px;
+        margin-bottom: 20px;
+        
     }
     .fondpicture5
     {
@@ -981,6 +1005,7 @@ p{
         background-color:white;
         width: 300px;
         padding:1%;
+        margin-bottom: 20px;
     }
     .sizepicturemarseilleacti1
     {
@@ -1019,10 +1044,6 @@ p{
     {
         font-weight: bold;
         font-size: 1.1em;     
-    }
-    .margintop3
-    {
-        margin-top: 20px;
     }
      /*footer*/
      .sizeblockfooter
@@ -1158,5 +1179,62 @@ p{
         margin-left: 20px;
         margin-right: 20px;
         box-shadow: 2px 4px 15px 5px #c1c1c1;
+    }
+}
+@media all and (max-width:350px)
+{
+    .grid
+   {
+       display: grid;
+       grid-template-columns: 150px 150px;
+       grid-template-rows: 1fr 2fr;
+       grid-auto-rows: minmax(100px, auto);
+       margin-bottom: -50px;
+       margin-left: -20px;
+   }
+   .one
+   {
+       grid-column: 1 / 2;
+       grid-row: 1;
+   }
+   .two
+   {
+       grid-column: 1 / 2;
+       grid-row: 2 / 2;
+       margin-top: -20px;
+   }
+   .three 
+   {
+       grid-column: 2 / 2;
+       grid-row: 2 / 2;
+       margin-top: -20px;
+       margin-right: 0px;
+   }
+   .four
+   {
+       grid-column: 2 / 2;
+       grid-row: 1 / 2;
+       margin-top: 40px;
+   }
+    .bordernav
+    {
+        border-bottom: 2px solid #F2F2F2;
+        padding-bottom: 30px;
+        
+    }
+    .bordernav:active
+    {
+        border-bottom:2px solid#0065FC;  
+        cursor: pointer;
+    }
+    .bordernav2
+    {
+        border-bottom: 2px solid white;
+        padding-bottom: 30px;
+    }
+    .bordernav2:active
+    {
+        border-bottom:2px solid#0065FC;  
+        cursor: pointer;
     }
 }
