@@ -11,11 +11,6 @@ p
 {
     font-size: 0.7em;
 }
-
-.margininfo
-{
-    margin-left: 10px;
-}
 a 
 {
     text-decoration: none;
@@ -61,11 +56,6 @@ center
     align-items: center;
 }
 /*header*/
-.navigation
-{
-    margin-left: 30px;
-    margin-right: 10px;
-}
 ul
 {
     list-style-type:none;
@@ -116,13 +106,7 @@ p{
     margin-bottom:-10px;
 }
   /*Filtres*/
-.sizefiltres 
-{
-    width: 60%;
-    height: 50px;
-    margin-left: 30px;
-    margin-right: 10px;
-}
+
 
 .coloricone 
 {
@@ -164,12 +148,7 @@ p{
     cursor: pointer;
 }
 /*info*/
-    .sizeinfo{
-        width:400px;
-        height: 50px;
-        margin-left: 30px;
-        margin-right: 10px;
-    }
+
 .tailleiconeinfo 
 {
     font-size: 0.6em;
@@ -212,11 +191,10 @@ p{
 
  .marginiconpopulaire 
  {
-     margin-right: 30px;
-     margin-top: 30px;
+     margin-left: 30px;
  }
 
-.margestarspopulaire2
+.margestarspopulaire
 {
     padding-top: 50px;
     padding-left: 20px;
@@ -225,6 +203,7 @@ p{
 {
     margin-left:20px;
 }
+
 .margepopulaires4
 {
  margin-left: 20px;
@@ -246,7 +225,11 @@ p{
 }
 @media all and (min-width:1280px)
 {
-
+    .navigation
+    {
+        margin-left: 30px;
+        margin-right: 10px;
+    }
     .marginsearch
     {
         margin-left: 30px;
@@ -281,8 +264,8 @@ p{
     {
         border-radius: 20px;
         background-color:white;
-        width: 300px; 
-        padding:0.5%;
+        width: 340px; 
+        padding:1%;
         margin: 0 AUTO;
         box-shadow:  2px 4px 15px 5px #C1C1C1;
     }
@@ -299,6 +282,13 @@ p{
 }
 @media all and (min-width:950px)
 {
+    .sizefiltres 
+    {
+        width: 850px;
+        height: 50px;
+        margin-left: 30px;
+        margin-right: 10px;
+    }
     .grid
      {
          display: grid;
@@ -310,7 +300,7 @@ p{
      .one
      {
          grid-column: 1 / 4;
-         grid-row: 1;
+         grid-row: 1/1;
      }
      .two
      {
@@ -421,7 +411,17 @@ p{
 }
 @media all and (min-width:620px) and (max-width:1280px)
 {
-
+    .navigation
+    {
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+    .aroundtablettepopulaire
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
     .sizeblock 
     {
         width: 90%;
@@ -442,14 +442,6 @@ p{
         border: 1px #F2F2F2 solid;
         background-color:#F2F2F2;
         min-width: 360px;
-        margin-left: 30px;
-        margin-right: 10px;
-    }
-    .sizefiltres 
-    {
-        width: 70%;
-        height: 50px;
-        margin-bottom: 70px;
         margin-left: 30px;
         margin-right: 10px;
     }
@@ -525,10 +517,21 @@ p{
         width: 95%;
         margin: 0 auto;
     }
-
+    .sizefiltres
+    {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
 }
 @media all and (min-width:600px)
 {
+    .sizeinfo
+    {
+        width:400px;
+        height: 50px;
+        margin-left: 20px;
+    }
     .aroundmobile
     {
         display: flex;
@@ -680,6 +683,7 @@ p{
         background-color:white;
         width: 280px;
         padding:1%;
+        margin-bottom: 20px;
     }
     .sizepicturemarseilleacti1
     {
@@ -760,7 +764,6 @@ p{
         grid-template-columns: 150px 150px ;
         grid-template-rows: 1fr 2fr;
         grid-auto-rows: minmax(100px, auto);
-        margin-bottom: -50px;
     }
     .one
     {
@@ -791,10 +794,57 @@ p{
 
 @media all and (max-width:620px)
 {
+    .marginlogo
+    {
+        margin-top: 20px;
+        margin-left:20px;
+    }
+
+    .gridfiltres
+     {
+         display: grid;
+         grid-template-columns: 180px 1fr;
+         grid-template-rows: 50px 60px 60px 70px;
+         grid-auto-rows: minmax(100px, auto);
+     }
+     .filt
+     {
+         grid-column: 1 / 2;
+         grid-row: 1/4;
+     }
+     .eco
+     {
+         grid-column: 1 / 2;
+         grid-row: 2 / 4;
+         width: 165.11px;
+     }
+     .fami 
+     {
+         grid-column: 2 / 2;
+         grid-row: 2 / 4;
+         width: 131.55px;
+     }
+     .roman
+     {
+         grid-column: 1 / 2;
+         grid-row: 3 / 4;
+         width: 161.95px;
+     }
+     .anim
+     {
+         grid-column: 1 / 2;
+         grid-row: 4 / 4;
+         width: 202.97px;
+     }
+     .aroundfiltres
+     {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+     }
     .marginnature
     {
         margin-top: 5px;
-        margin-left: -40px;
         font-size: 1.0em;
 
     }
@@ -810,6 +860,11 @@ p{
         width:350px;
         height: 50px;
         margin-bottom: 20px;
+        margin-right: 10px;
+    }
+    .fondinfo
+    {
+        margin-right: 10px;
     }
     .margintitle3 
     {
@@ -833,10 +888,10 @@ p{
     .marginbottomh1
     {
         margin-bottom: 3px;
+        margin-left: 37.5px;
     }
     /*search*/
     .margerecherche {
-        margin-bottom:200px;
         margin-top:25px;
     }
     .txtrecherche
@@ -879,8 +934,7 @@ p{
     }
     .marginfiltres
     {
-        margin-top: -30px;
-        margin-bottom: 150px;
+        
     }
     /*hebergement*/
     .marginafficherplus
@@ -1104,11 +1158,11 @@ p{
    .grid
    {
        display: grid;
-       grid-template-columns: 150px 150px;
+       grid-template-columns: 180px 1fr;
        grid-template-rows: 1fr 2fr;
        grid-auto-rows: minmax(100px, auto);
-       margin-bottom: -50px;
    }
+
    .one
    {
        grid-column: 1 / 2;
@@ -1131,12 +1185,13 @@ p{
    {
        grid-column: 2 / 2;
        grid-row: 1 / 2;
-       margin-top: 40px;
+       margin-top: 30px;
+       margin-left: 60px;
    }
     .bordernav
     {
         border-bottom: 2px solid #F2F2F2;
-        padding-bottom: 30px;
+        padding-bottom: 15px;
         
     }
     .bordernav:active
@@ -1147,7 +1202,7 @@ p{
     .bordernav2
     {
         border-bottom: 2px solid white;
-        padding-bottom: 30px;
+        padding-bottom: 15px;
     }
     .bordernav2:active
     {
