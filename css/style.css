@@ -89,7 +89,7 @@ p{
 }
 .searchbar {
     height: 50px;
-    width: 200px;
+    width: 213px;
     color: black;
     font-weight: bold;
     padding-left: 20px;
@@ -192,6 +192,7 @@ p{
  .marginiconpopulaire 
  {
      margin-left: 30px;
+     font-size: 0.8em;
  }
 
 .margestarspopulaire
@@ -723,22 +724,6 @@ p{
         height: auto;
         background-color:#F2F2F2;
     }
-    .margintitlefooter
-    {
-        margin-left: 30px;
-        padding-top: 20px;
-        margin-bottom: 20px
-    }
-    .marginbottomfooter
-    {
-        margin-bottom: 12px;
-        margin-left: 30px;
-    }
-    .marginbottomfooter2
-    {
-        margin-bottom: 32px;
-        margin-left: 30px;
-    }
     .sizedivfooter
     {
         width: 50%;
@@ -747,11 +732,6 @@ p{
 }
 @media all and (max-width:800px) and (min-width:400px)
 {
-    .marginsearch
-    {
-        margin-left: 30px;
-        margin-right: 10px;
-    }
     /*Div*/
     .over:hover 
     {
@@ -794,6 +774,10 @@ p{
 
 @media all and (max-width:620px)
 {
+    .flexwrap2
+    {
+        flex-wrap: wrap;
+    }
     .marginlogo
     {
         margin-top: 20px;
@@ -841,12 +825,13 @@ p{
         display: flex;
         justify-content: space-around;
         align-items: center;
+        margin-left: 8px;
      }
     .marginnature
     {
         margin-top: 5px;
         font-size: 1.0em;
-
+        margin-left: -6px;
     }
     .aroundtablette
     {
@@ -857,10 +842,9 @@ p{
         /*info*/
     .sizeinfo
     {
-        width:350px;
+        width:300px;
         height: 50px;
         margin-bottom: 20px;
-        margin-right: 10px;
     }
     .fondinfo
     {
@@ -885,11 +869,18 @@ p{
         justify-content: space-between;
         align-items: center;
     }
+    .navigation
+    {
+        width: 100%;
+        height: auto;
+    }
     .marginbottomh1
     {
         margin-bottom: 3px;
-        margin-left: 37.5px;
+        margin-right: 20px;
+        margin-left: 30px;
     }
+
     /*search*/
     .margerecherche {
         margin-top:25px;
@@ -984,6 +975,7 @@ p{
     {
         padding-top: 30px;
         margin-bottom: 15px;
+        margin-left: -30px;
     }
     /*Populaire*/
     .blockhebergementpopulaire
@@ -1107,6 +1099,11 @@ p{
         margin: 0;
         padding: 0;
      } 
+     .sizedivfooter
+     {
+         width: 300px;
+         height: auto;
+     }
      .fondblockfooter
      {
          width: 100%;
@@ -1117,25 +1114,18 @@ p{
      }
      .margintitlefooter
      {
-        margin-left: 20px;
         padding-top: 20px;
         margin-bottom: 20px
      }
      .marginbottomfooter
      {
          margin-bottom: 12px;
-         margin-left: 20px;
      }
      .marginbottomfooter2
      {
          margin-bottom: 32px;
-         margin-left: 20px;
      }
-     .sizedivfooter
-     {
-         width: 100%;
-         height: auto;
-     }
+
 
      .around2
     {
@@ -1172,13 +1162,11 @@ p{
    {
        grid-column: 1 / 2;
        grid-row: 2 / 2;
-       margin-top: -20px;
    }
    .three 
    {
        grid-column: 2 / 2;
        grid-row: 2 / 2;
-       margin-top: -20px;
        margin-right: 0px;
    }
    .four
@@ -1245,7 +1233,6 @@ p{
        grid-template-rows: 1fr 2fr;
        grid-auto-rows: minmax(100px, auto);
        margin-bottom: -50px;
-       margin-left: -20px;
    }
    .one
    {
@@ -1291,5 +1278,47 @@ p{
     {
         border-bottom:2px solid#0065FC;  
         cursor: pointer;
+    }
+}
+
+@media all and (min-width:620px) and (max-width:1185px)
+{
+    .aroundtablettefooter
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .marginbottomfooter
+    {
+        margin-bottom: 12px;
+    }
+    .marginbottomfooter2
+    {
+        margin-bottom: 32px;
+    }
+    .margintitlefooter
+    {
+        padding-top: 20px;
+        margin-bottom: 20px
+    }
+}
+@media all and (min-width:1185px)
+{
+    .marginbottomfooter
+    {
+        margin-bottom: 12px;
+        margin-left: 30px;
+    }
+    .marginbottomfooter2
+    {
+        margin-bottom: 32px;
+        margin-left: 30px;
+    }
+    .margintitlefooter
+    {
+        margin-left: 30px;
+        padding-top: 20px;
+        margin-bottom: 20px
     }
 }
