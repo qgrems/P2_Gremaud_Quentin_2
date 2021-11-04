@@ -450,7 +450,7 @@ p{
     }
     .sizeblock 
     {
-        width: 90%;
+        width: 100%;
         max-width: 990px;
         min-height: 625px;
         margin-right: 10px;
@@ -460,7 +460,7 @@ p{
     }
     .sizeblock2 
     {
-        width: 90%;
+        width: 100%;
         height: auto;
         border-radius: 3% 3% 3% 3%;
         border: 1px #F2F2F2 solid;
